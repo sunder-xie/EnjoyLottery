@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_hui"
+    android:orientation="vertical">
+
+    <include layout="@layout/every_top"/>
+
+    <LinearLayout
+        android:id="@+id/lay_head"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:elevation="2dp"
+        android:background="@drawable/everyclickcolor">
+
+        <ImageView
+            android:id="@+id/image_head"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/weidenglu"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/page_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:paddingLeft="30dp"/>
+
+            <TextView
+                android:id="@+id/cailiao_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:paddingLeft="30dp"
+                android:paddingTop="8dp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_lay_faxian_sao"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        android:elevation="1dp"
+        android:background="@drawable/everyclickcolor">
+
+        <ImageView
+            android:id="@+id/item_iv_faxian_sao"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/two_hands" />
+
+        <TextView
+            android:id="@+id/item_tv_faxian_sao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@+id/item_iv_faxian_sao"
+            android:text="钱包"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/start" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_lay_bangzhuzhongxin"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="2dp"
+        android:elevation="1dp"
+        android:background="@drawable/everyclickcolor">
+
+        <ImageView
+            android:id="@+id/item_iv__bangzhuzhongxin"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/two_hands" />
+
+        <TextView
+            android:id="@+id/item_tv_bangzhuzhongxin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@+id/item_iv__bangzhuzhongxin"
+            android:text="卡包"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/start" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_lay_mimashezhi"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:elevation="1dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/everyclickcolor">
+
+        <ImageView
+            android:id="@+id/item_iv_mimashezhi"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/two_hands" />
+
+        <TextView
+            android:id="@+id/item_tv_mimashezhi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@+id/item_iv_mimashezhi"
+            android:text="帮助"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/start" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_lay_shezhi"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="2dp"
+        android:elevation="1dp"
+        android:background="@drawable/everyclickcolor">
+
+        <ImageView
+            android:id="@+id/item_iv_shezhi"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/two_hands" />
+
+        <TextView
+            android:id="@+id/item_tv_shezhi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@+id/item_iv_shezhi"
+            android:text="设置"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/start" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_lay_renzhengzhongxin"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:elevation="1dp"
+        android:background="@drawable/everyclickcolor">
+
+        <ImageView
+            android:id="@+id/item_iv_renzhengzhongxin"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/two_hands" />
+
+        <TextView
+            android:id="@+id/item_tv_renzhengzhongxin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@+id/item_iv_renzhengzhongxin"
+            android:text="彩站认证"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/start" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/quanju_dengchu"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="退出"
+        android:gravity="center"
+        android:elevation="1dp"
+        android:textSize="15sp"
+        android:background="@drawable/everyclickcolor"
+        android:layout_marginTop="30dp"/>
+</LinearLayout>

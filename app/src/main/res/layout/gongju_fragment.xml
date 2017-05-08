@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_hui"
+    android:orientation="vertical"
+    android:scrollbars="none">
+
+    <include layout="@layout/top_quan" />
+
+    <com.example.administrator.enjoylottery.view.MyExpandlerListview
+        android:id="@+id/gongju_expandable_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" />
+
+    <RelativeLayout
+        android:id="@+id/item_lay_faxian_sao"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/gongju_expandable_listview"
+        android:layout_marginTop="10dp"
+        android:background="@color/background_white">
+
+        <ImageView
+            android:id="@+id/item_iv_faxian_sao"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/two_hands" />
+
+        <TextView
+            android:id="@+id/item_tv_faxian_sao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@+id/item_iv_faxian_sao"
+            android:text="扫一扫"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/start" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+<LinearLayout
+    android:id="@+id/lay_listView"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:visibility="gone"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/gongju_sure"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="确定"
+        android:gravity="right"
+        android:paddingRight="10dp"
+        android:background="@color/edithui"/>
+
+    <ListView
+        android:id="@+id/gongju_wheel"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:scrollbars="none"
+        android:listSelector="@color/colorAccent"/>
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_hui">
+
+    <include layout="@layout/top_quan"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@color/background_white">
+
+        <TextView
+            android:id="@+id/denglu_shoujihao_text"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="手机号码："
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"/>
+
+        <EditText
+            android:id="@+id/denglu_shoujihao_edit"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:hint="请输入11位手机号"
+            android:textColorHint="@color/edithui"
+            android:textSize="14sp"
+            android:inputType="phone"
+            android:gravity="center|left"/>
+
+        <TextView
+            android:id="@+id/denglu_quxiao_shoujihao"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:text="×"
+            android:gravity="center"
+            android:visibility="gone"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="15dp"
+            android:textSize="12sp"
+            android:background="@drawable/floatbuttonbefor"
+            android:textColor="@color/background_white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp"
+        android:background="@color/background_white">
+
+        <TextView
+            android:id="@+id/denglu_pwd_text"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="密码：        "
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"/>
+
+        <EditText
+            android:id="@+id/denglu_pwd_edit"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:hint="请输入密码"
+            android:textColorHint="@color/edithui"
+            android:textSize="14sp"
+            android:inputType="textPassword"
+            android:gravity="center|left"/>
+
+        <ImageView
+            android:id="@+id/denglu_kanmima"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/weikan"/>
+
+        <TextView
+            android:id="@+id/denglu_quxiao_pwd"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:text="×"
+            android:gravity="center"
+            android:visibility="gone"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="15dp"
+            android:textSize="12sp"
+            android:background="@drawable/floatbuttonbefor"
+            android:textColor="@color/background_white"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/find_back_pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="忘记密码?"
+        android:textColor="@color/wangjimima"
+        android:paddingTop="5dp"
+        android:paddingLeft="15dp"/>
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="20sp"
+        android:text="登 录"
+        android:gravity="center"
+        android:textColor="@color/background_white"
+        android:background="@drawable/dianjibianse"
+        android:clickable="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"/>
+
+    <TextView
+        android:id="@+id/denglu_caiminzhuce"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textSize="20sp"
+        android:text="彩民注册"
+        android:gravity="center"
+        android:textColor="@color/background_white"
+        android:background="@drawable/dianjibianse"
+        android:clickable="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:layout_toLeftOf="@+id/tianchong"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/wechat"/>
+
+        <View
+            android:id="@+id/tianchong"
+            android:layout_width="80dp"
+            android:layout_height="1dp"
+            android:layout_centerInParent="true"/>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_toRightOf="@+id/tianchong"
+            android:layout_centerVertical="true"
+            android:src="@drawable/qq"/>
+    </RelativeLayout>
+
+</LinearLayout>

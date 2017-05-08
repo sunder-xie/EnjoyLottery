@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="fense">#FF4081</color>
+    <color name="lvse">#55d62e</color>
+    <color name="title_color">#393a3e</color>
+    <color name="title_text_color">#f1f1f1</color>
+    <color name="background_hui">#f0eff5</color>
+    <color name="background_white">#fdfdfe</color>
+    <color name="bottom_lv">#5eba5e</color>
+    <color name="black">#bababa</color>
+    <color name="edithui">#969393</color>
+    <color name="wangjimima">#0074e9</color>
+    <color name="lijizhuce">#009801</color>
+    <color name="zitilv">#2eb91c</color>
+    <color name="province_line_border">#C7C7C7</color>
+    <color name="red">#f10909</color>
+    <color name="backcaizhanrenzheng">#797979</color>
+    <color name="renzhengfucai">#009898</color>
+    <color name="renzhengticai">#fd3366</color>
+    <color name="tianjiarenzheng">#adadad</color>
+    <color name="jianqun">#bf0a41</color>
+    <color name="zhuanjia">#009cd9</color>
+    <color name="jifen">#fac316</color>
+    <color name="dianji">#cccbc9</color>
+    <color name="divider">#ffd2d2d2</color>
+    <color name="kaiguanlvse">#1aab19</color>
+    <color name="chunblack">#000001</color>
+    <color name="save">#2a5c32</color>
+    <color name="chatnumber">#9fa19f</color>
+    <color name="item_nor">#FFFFFF</color>
+    <color name="item_press">#B0B0B0</color>
+
+</resources>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_hui">
+
+    <include layout="@layout/top_quan"/>
+
+    <RelativeLayout
+        android:id="@+id/rel_jianqun"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/xuanzebianse"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:elevation="8dp">
+
+        <TextView
+            android:id="@+id/jianqun_logo"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:background="@color/jianqun"
+            android:text="建群"
+            android:gravity="center"
+            android:textColor="@color/background_white"
+            android:textSize="16sp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="建群卡【2】"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/jianqun_logo"
+            android:paddingLeft="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="购买"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_zhuanjia"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/xuanzebianse"
+        android:elevation="8dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/zhuanjia_logo"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:background="@color/zhuanjia"
+            android:text="专家"
+            android:gravity="center"
+            android:textColor="@color/background_white"
+            android:textSize="16sp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="未上线"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/zhuanjia_logo"
+            android:paddingLeft="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="购买"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_jifen"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:elevation="8dp"
+        android:background="@drawable/xuanzebianse"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/jifen_logo"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:background="@color/jifen"
+            android:text="积分"
+            android:gravity="center"
+            android:textColor="@color/background_white"
+            android:textSize="16sp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="未上线"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/jifen_logo"
+            android:paddingLeft="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="购买"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"/>
+    </RelativeLayout>
+
+</LinearLayout>

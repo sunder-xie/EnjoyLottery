@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_lay_faxian_eleven"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background_white">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:elevation="5dp"
+    android:background="@color/background_white">
+    <ImageView
+        android:id="@+id/item_iv_faxian_eleven"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/elevenfive"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/item_tv_faxian_eleven"
+        android:layout_toRightOf="@+id/item_iv_faxian_eleven"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginLeft="16dp"
+        android:layout_centerVertical="true"/>
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/start"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"/>
+</RelativeLayout>
+</RelativeLayout>

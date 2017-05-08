@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_hui">
+
+    <include layout="@layout/every_top" />
+    
+    <RelativeLayout
+        android:id="@+id/wode_diancidenglu"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:background="@color/background_white"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/wode_denglu_head"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:src="@drawable/weidenglu"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/wode_touxiang_text"
+            android:layout_toRightOf="@+id/wode_denglu_head"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="您尚未登录，点此登录"
+            android:layout_centerVertical="true"/>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/start"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/background_white">
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

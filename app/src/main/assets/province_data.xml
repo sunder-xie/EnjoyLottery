@@ -1,0 +1,2078 @@
+<root>
+  <province name="北京市" pcode="110000">
+    <city name="北京市" ccode="110100">
+      <district name="东城区" rcode="110101"/>
+      <district name="房山区" rcode="110111"/>
+      <district name="通州区" rcode="110112"/>
+      <district name="顺义区" rcode="110113"/>
+      <district name="昌平区" rcode="110114"/>
+      <district name="大兴区" rcode="110115"/>
+      <district name="怀柔区" rcode="110116"/>
+      <district name="平谷区" rcode="110117"/>
+      <district name="西城区" rcode="110102"/>
+      <district name="崇文区" rcode="110103"/>
+      <district name="宣武区" rcode="110104"/>
+      <district name="朝阳区" rcode="110105"/>
+      <district name="丰台区" rcode="110106"/>
+      <district name="石景山区" rcode="110107"/>
+      <district name="海淀区" rcode="110108"/>
+      <district name="门头沟区" rcode="110109"/>
+    </city >
+  </province>
+  <province name="江苏省" pcode="320000">
+    <city name="南京市" ccode="320100">
+      <district name="市辖区" rcode="320101"/>
+      <district name="玄武区" rcode="320102"/>
+      <district name="白下区" rcode="320103"/>
+      <district name="秦淮区" rcode="320104"/>
+      <district name="建邺区" rcode="320105"/>
+      <district name="鼓楼区" rcode="320106"/>
+      <district name="下关区" rcode="320107"/>
+      <district name="浦口区" rcode="320111"/>
+      <district name="栖霞区" rcode="320113"/>
+      <district name="雨花台区" rcode="320114"/>
+      <district name="江宁区" rcode="320115"/>
+      <district name="六合区" rcode="320116"/>
+      <district name="溧水县" rcode="320124"/>
+      <district name="高淳县" rcode="320125"/>
+    </city >
+    <city name="无锡市" ccode="320200">
+      <district name="市辖区" rcode="320201"/>
+      <district name="崇安区" rcode="320202"/>
+      <district name="南长区" rcode="320203"/>
+      <district name="北塘区" rcode="320204"/>
+      <district name="锡山区" rcode="320205"/>
+      <district name="惠山区" rcode="320206"/>
+      <district name="滨湖区" rcode="320211"/>
+      <district name="江阴市" rcode="320281"/>
+      <district name="宜兴市" rcode="320282"/>
+    </city >
+    <city name="徐州市" ccode="320300">
+      <district name="市辖区" rcode="320301"/>
+      <district name="鼓楼区" rcode="320302"/>
+      <district name="云龙区" rcode="320303"/>
+      <district name="九里区" rcode="320304"/>
+      <district name="贾汪区" rcode="320305"/>
+      <district name="泉山区" rcode="320311"/>
+      <district name="丰县" rcode="320321"/>
+      <district name="沛县" rcode="320322"/>
+      <district name="铜山县" rcode="320323"/>
+      <district name="睢宁县" rcode="320324"/>
+      <district name="新沂市" rcode="320381"/>
+      <district name="邳州市" rcode="320382"/>
+    </city >
+    <city name="常州市" ccode="320400">
+      <district name="市辖区" rcode="320401"/>
+      <district name="天宁区" rcode="320402"/>
+      <district name="钟楼区" rcode="320404"/>
+      <district name="戚墅堰区" rcode="320405"/>
+      <district name="新北区" rcode="320411"/>
+      <district name="武进区" rcode="320412"/>
+      <district name="溧阳市" rcode="320481"/>
+      <district name="金坛市" rcode="320482"/>
+    </city >
+    <city name="苏州市" ccode="320500">
+      <district name="市辖区" rcode="320501"/>
+      <district name="沧浪区" rcode="320502"/>
+      <district name="平江区" rcode="320503"/>
+      <district name="金阊区" rcode="320504"/>
+      <district name="虎丘区" rcode="320505"/>
+      <district name="吴中区" rcode="320506"/>
+      <district name="相城区" rcode="320507"/>
+      <district name="常熟市" rcode="320581"/>
+      <district name="张家港市" rcode="320582"/>
+      <district name="昆山市" rcode="320583"/>
+      <district name="吴江市" rcode="320584"/>
+      <district name="太仓市" rcode="320585"/>
+    </city >
+    <city name="南通市" ccode="320600">
+      <district name="市辖区" rcode="320601"/>
+      <district name="崇川区" rcode="320602"/>
+      <district name="港闸区" rcode="320611"/>
+      <district name="海安县" rcode="320621"/>
+      <district name="如东县" rcode="320623"/>
+      <district name="启东市" rcode="320681"/>
+      <district name="如皋市" rcode="320682"/>
+      <district name="通州市" rcode="320683"/>
+      <district name="海门市" rcode="320684"/>
+    </city >
+    <city name="连云港市" ccode="320700">
+      <district name="市辖区" rcode="320701"/>
+      <district name="连云区" rcode="320703"/>
+      <district name="新浦区" rcode="320705"/>
+      <district name="海州区" rcode="320706"/>
+      <district name="赣榆县" rcode="320721"/>
+      <district name="东海县" rcode="320722"/>
+      <district name="灌云县" rcode="320723"/>
+      <district name="灌南县" rcode="320724"/>
+    </city >
+    <city name="淮安市" ccode="320800">
+      <district name="市辖区" rcode="320801"/>
+      <district name="清河区" rcode="320802"/>
+      <district name="楚州区" rcode="320803"/>
+      <district name="淮阴区" rcode="320804"/>
+      <district name="清浦区" rcode="320811"/>
+      <district name="涟水县" rcode="320826"/>
+      <district name="洪泽县" rcode="320829"/>
+      <district name="盱眙县" rcode="320830"/>
+      <district name="金湖县" rcode="320831"/>
+    </city >
+    <city name="盐城市" ccode="320900">
+      <district name="市辖区" rcode="320901"/>
+      <district name="亭湖区" rcode="320902"/>
+      <district name="盐都区" rcode="320903"/>
+      <district name="响水县" rcode="320921"/>
+      <district name="滨海县" rcode="320922"/>
+      <district name="阜宁县" rcode="320923"/>
+      <district name="射阳县" rcode="320924"/>
+      <district name="建湖县" rcode="320925"/>
+      <district name="东台市" rcode="320981"/>
+      <district name="大丰市" rcode="320982"/>
+    </city >
+    <city name="扬州市" ccode="321000">
+      <district name="市辖区" rcode="321001"/>
+      <district name="广陵区" rcode="321002"/>
+      <district name="邗江区" rcode="321003"/>
+      <district name="郊区" rcode="321011"/>
+      <district name="宝应县" rcode="321023"/>
+      <district name="仪征市" rcode="321081"/>
+      <district name="高邮市" rcode="321084"/>
+      <district name="江都市" rcode="321088"/>
+    </city >
+    <city name="镇江市" ccode="321100">
+      <district name="市辖区" rcode="321101"/>
+      <district name="京口区" rcode="321102"/>
+      <district name="润州区" rcode="321111"/>
+      <district name="丹徒区" rcode="321112"/>
+      <district name="丹阳市" rcode="321181"/>
+      <district name="扬中市" rcode="321182"/>
+      <district name="句容市" rcode="321183"/>
+    </city >
+    <city name="泰州市" ccode="321200">
+      <district name="市辖区" rcode="321201"/>
+      <district name="海陵区" rcode="321202"/>
+      <district name="高港区" rcode="321203"/>
+      <district name="兴化市" rcode="321281"/>
+      <district name="靖江市" rcode="321282"/>
+      <district name="泰兴市" rcode="321283"/>
+      <district name="姜堰市" rcode="321284"/>
+    </city >
+    <city name="宿迁市" ccode="321300">
+      <district name="市辖区" rcode="321301"/>
+      <district name="宿城区" rcode="321302"/>
+      <district name="宿豫区" rcode="321311"/>
+      <district name="沭阳县" rcode="321322"/>
+      <district name="泗阳县" rcode="321323"/>
+      <district name="泗洪县" rcode="321324"/>
+    </city >
+  </province>
+  <province name="浙江省" pcode="330000">
+    <city name="杭州市" ccode="330100">
+      <district name="市辖区" rcode="330101"/>
+      <district name="上城区" rcode="330102"/>
+      <district name="下城区" rcode="330103"/>
+      <district name="江干区" rcode="330104"/>
+      <district name="拱墅区" rcode="330105"/>
+      <district name="西湖区" rcode="330106"/>
+      <district name="滨江区" rcode="330108"/>
+      <district name="萧山区" rcode="330109"/>
+      <district name="余杭区" rcode="330110"/>
+      <district name="桐庐县" rcode="330122"/>
+      <district name="淳安县" rcode="330127"/>
+      <district name="建德市" rcode="330182"/>
+      <district name="富阳市" rcode="330183"/>
+      <district name="临安市" rcode="330185"/>
+    </city >
+    <city name="宁波市" ccode="330200">
+      <district name="市辖区" rcode="330201"/>
+      <district name="海曙区" rcode="330203"/>
+      <district name="江东区" rcode="330204"/>
+      <district name="江北区" rcode="330205"/>
+      <district name="北仑区" rcode="330206"/>
+      <district name="镇海区" rcode="330211"/>
+      <district name="鄞州区" rcode="330212"/>
+      <district name="象山县" rcode="330225"/>
+      <district name="宁海县" rcode="330226"/>
+      <district name="余姚市" rcode="330281"/>
+      <district name="慈溪市" rcode="330282"/>
+      <district name="奉化市" rcode="330283"/>
+    </city >
+    <city name="温州市" ccode="330300">
+      <district name="市辖区" rcode="330301"/>
+      <district name="鹿城区" rcode="330302"/>
+      <district name="龙湾区" rcode="330303"/>
+      <district name="瓯海区" rcode="330304"/>
+      <district name="洞头县" rcode="330322"/>
+      <district name="永嘉县" rcode="330324"/>
+      <district name="平阳县" rcode="330326"/>
+      <district name="苍南县" rcode="330327"/>
+      <district name="文成县" rcode="330328"/>
+      <district name="泰顺县" rcode="330329"/>
+      <district name="瑞安市" rcode="330381"/>
+      <district name="乐清市" rcode="330382"/>
+    </city >
+    <city name="嘉兴市" ccode="330400">
+      <district name="市辖区" rcode="330401"/>
+      <district name="秀城区" rcode="330402"/>
+      <district name="秀洲区" rcode="330411"/>
+      <district name="嘉善县" rcode="330421"/>
+      <district name="海盐县" rcode="330424"/>
+      <district name="海宁市" rcode="330481"/>
+      <district name="平湖市" rcode="330482"/>
+      <district name="桐乡市" rcode="330483"/>
+    </city >
+    <city name="湖州市" ccode="330500">
+      <district name="市辖区" rcode="330501"/>
+      <district name="吴兴区" rcode="330502"/>
+      <district name="南浔区" rcode="330503"/>
+      <district name="德清县" rcode="330521"/>
+      <district name="长兴县" rcode="330522"/>
+      <district name="安吉县" rcode="330523"/>
+    </city >
+    <city name="绍兴市" ccode="330600">
+      <district name="市辖区" rcode="330601"/>
+      <district name="越城区" rcode="330602"/>
+      <district name="绍兴县" rcode="330621"/>
+      <district name="新昌县" rcode="330624"/>
+      <district name="诸暨市" rcode="330681"/>
+      <district name="上虞市" rcode="330682"/>
+      <district name="嵊州市" rcode="330683"/>
+    </city >
+    <city name="金华市" ccode="330700">
+      <district name="市辖区" rcode="330701"/>
+      <district name="婺城区" rcode="330702"/>
+      <district name="金东区" rcode="330703"/>
+      <district name="武义县" rcode="330723"/>
+      <district name="浦江县" rcode="330726"/>
+      <district name="磐安县" rcode="330727"/>
+      <district name="兰溪市" rcode="330781"/>
+      <district name="义乌市" rcode="330782"/>
+      <district name="东阳市" rcode="330783"/>
+      <district name="永康市" rcode="330784"/>
+    </city >
+    <city name="衢州市" ccode="330800">
+      <district name="市辖区" rcode="330801"/>
+      <district name="柯城区" rcode="330802"/>
+      <district name="衢江区" rcode="330803"/>
+      <district name="常山县" rcode="330822"/>
+      <district name="开化县" rcode="330824"/>
+      <district name="龙游县" rcode="330825"/>
+      <district name="江山市" rcode="330881"/>
+    </city >
+    <city name="舟山市" ccode="330900">
+      <district name="岱山县" rcode="330921"/>
+      <district name="嵊泗县" rcode="330922"/>
+      <district name="市辖区" rcode="330901"/>
+      <district name="定海区" rcode="330902"/>
+      <district name="普陀区" rcode="330903"/>
+    </city >
+    <city name="台州市" ccode="331000">
+      <district name="市辖区" rcode="331001"/>
+      <district name="椒江区" rcode="331002"/>
+      <district name="黄岩区" rcode="331003"/>
+      <district name="路桥区" rcode="331004"/>
+      <district name="玉环县" rcode="331021"/>
+      <district name="三门县" rcode="331022"/>
+      <district name="天台县" rcode="331023"/>
+      <district name="仙居县" rcode="331024"/>
+      <district name="温岭市" rcode="331081"/>
+      <district name="临海市" rcode="331082"/>
+    </city >
+    <city name="丽水市" ccode="331100">
+      <district name="市辖区" rcode="331101"/>
+      <district name="莲都区" rcode="331102"/>
+      <district name="青田县" rcode="331121"/>
+      <district name="缙云县" rcode="331122"/>
+      <district name="遂昌县" rcode="331123"/>
+      <district name="松阳县" rcode="331124"/>
+      <district name="云和县" rcode="331125"/>
+      <district name="庆元县" rcode="331126"/>
+      <district name="景宁畲族自治县" rcode="331127"/>
+      <district name="龙泉市" rcode="331181"/>
+    </city >
+  </province>
+  <province name="安徽省" pcode="340000">
+    <city name="马鞍山市" ccode="340500">
+      <district name="市辖区" rcode="340501"/>
+      <district name="金家庄区" rcode="340502"/>
+      <district name="花山区" rcode="340503"/>
+      <district name="雨山区" rcode="340504"/>
+      <district name="当涂县" rcode="340521"/>
+    </city >
+    <city name="淮北市" ccode="340600">
+      <district name="市辖区" rcode="340601"/>
+      <district name="杜集区" rcode="340602"/>
+      <district name="相山区" rcode="340603"/>
+      <district name="烈山区" rcode="340604"/>
+      <district name="濉溪县" rcode="340621"/>
+    </city >
+    <city name="铜陵市" ccode="340700">
+      <district name="市辖区" rcode="340701"/>
+      <district name="铜官山区" rcode="340702"/>
+      <district name="狮子山区" rcode="340703"/>
+      <district name="郊区" rcode="340711"/>
+      <district name="铜陵县" rcode="340721"/>
+    </city >
+    <city name="安庆市" ccode="340800">
+      <district name="市辖区" rcode="340801"/>
+      <district name="迎江区" rcode="340802"/>
+      <district name="大观区" rcode="340803"/>
+      <district name="郊区" rcode="340811"/>
+      <district name="怀宁县" rcode="340822"/>
+      <district name="枞阳县" rcode="340823"/>
+      <district name="潜山县" rcode="340824"/>
+      <district name="太湖县" rcode="340825"/>
+      <district name="宿松县" rcode="340826"/>
+      <district name="望江县" rcode="340827"/>
+      <district name="岳西县" rcode="340828"/>
+      <district name="桐城市" rcode="340881"/>
+    </city >
+    <city name="黄山市" ccode="341000">
+      <district name="市辖区" rcode="341001"/>
+      <district name="屯溪区" rcode="341002"/>
+      <district name="黄山区" rcode="341003"/>
+      <district name="徽州区" rcode="341004"/>
+      <district name="歙县" rcode="341021"/>
+      <district name="休宁县" rcode="341022"/>
+      <district name="黟县" rcode="341023"/>
+      <district name="祁门县" rcode="341024"/>
+    </city >
+    <city name="滁州市" ccode="341100">
+      <district name="市辖区" rcode="341101"/>
+      <district name="琅琊区" rcode="341102"/>
+      <district name="南谯区" rcode="341103"/>
+      <district name="来安县" rcode="341122"/>
+      <district name="全椒县" rcode="341124"/>
+      <district name="定远县" rcode="341125"/>
+      <district name="凤阳县" rcode="341126"/>
+      <district name="天长市" rcode="341181"/>
+      <district name="明光市" rcode="341182"/>
+    </city >
+    <city name="阜阳市" ccode="341200">
+      <district name="市辖区" rcode="341201"/>
+      <district name="颍州区" rcode="341202"/>
+      <district name="颍东区" rcode="341203"/>
+      <district name="颍泉区" rcode="341204"/>
+      <district name="临泉县" rcode="341221"/>
+      <district name="太和县" rcode="341222"/>
+      <district name="阜南县" rcode="341225"/>
+      <district name="颍上县" rcode="341226"/>
+      <district name="界首市" rcode="341282"/>
+    </city >
+    <city name="宿州市" ccode="341300">
+      <district name="市辖区" rcode="341301"/>
+      <district name="墉桥区" rcode="341302"/>
+      <district name="砀山县" rcode="341321"/>
+      <district name="萧县" rcode="341322"/>
+      <district name="灵璧县" rcode="341323"/>
+      <district name="泗县" rcode="341324"/>
+    </city >
+    <city name="巢湖市" ccode="341400">
+      <district name="市辖区" rcode="341401"/>
+      <district name="居巢区" rcode="341402"/>
+      <district name="庐江县" rcode="341421"/>
+      <district name="无为县" rcode="341422"/>
+      <district name="含山县" rcode="341423"/>
+      <district name="和县" rcode="341424"/>
+    </city >
+    <city name="六安市" ccode="341500">
+      <district name="市辖区" rcode="341501"/>
+      <district name="金安区" rcode="341502"/>
+      <district name="裕安区" rcode="341503"/>
+      <district name="寿县" rcode="341521"/>
+      <district name="霍邱县" rcode="341522"/>
+      <district name="舒城县" rcode="341523"/>
+      <district name="金寨县" rcode="341524"/>
+      <district name="霍山县" rcode="341525"/>
+    </city >
+    <city name="亳州市" ccode="341600">
+      <district name="市辖区" rcode="341601"/>
+      <district name="谯城区" rcode="341602"/>
+      <district name="涡阳县" rcode="341621"/>
+      <district name="蒙城县" rcode="341622"/>
+      <district name="利辛县" rcode="341623"/>
+    </city >
+    <city name="池州市" ccode="341700">
+      <district name="市辖区" rcode="341701"/>
+      <district name="贵池区" rcode="341702"/>
+      <district name="东至县" rcode="341721"/>
+      <district name="石台县" rcode="341722"/>
+      <district name="青阳县" rcode="341723"/>
+    </city >
+    <city name="宣城市" ccode="341800">
+      <district name="市辖区" rcode="341801"/>
+      <district name="宣州区" rcode="341802"/>
+      <district name="郎溪县" rcode="341821"/>
+      <district name="广德县" rcode="341822"/>
+      <district name="泾县" rcode="341823"/>
+      <district name="绩溪县" rcode="341824"/>
+      <district name="旌德县" rcode="341825"/>
+      <district name="宁国市" rcode="341881"/>
+    </city >
+    <city name="合肥市" ccode="340100">
+      <district name="市辖区" rcode="340101"/>
+      <district name="瑶海区" rcode="340102"/>
+      <district name="庐阳区" rcode="340103"/>
+      <district name="蜀山区" rcode="340104"/>
+      <district name="包河区" rcode="340111"/>
+      <district name="长丰县" rcode="340121"/>
+      <district name="肥东县" rcode="340122"/>
+      <district name="肥西县" rcode="340123"/>
+    </city >
+    <city name="芜湖市" ccode="340200">
+      <district name="市辖区" rcode="340201"/>
+      <district name="镜湖区" rcode="340202"/>
+      <district name="马塘区" rcode="340203"/>
+      <district name="新芜区" rcode="340204"/>
+      <district name="鸠江区" rcode="340207"/>
+      <district name="芜湖县" rcode="340221"/>
+      <district name="繁昌县" rcode="340222"/>
+      <district name="南陵县" rcode="340223"/>
+    </city >
+    <city name="蚌埠市" ccode="340300">
+      <district name="市辖区" rcode="340301"/>
+      <district name="龙子湖区" rcode="340302"/>
+      <district name="蚌山区" rcode="340303"/>
+      <district name="禹会区" rcode="340304"/>
+      <district name="淮上区" rcode="340311"/>
+      <district name="怀远县" rcode="340321"/>
+      <district name="五河县" rcode="340322"/>
+      <district name="固镇县" rcode="340323"/>
+    </city >
+    <city name="淮南市" ccode="340400">
+      <district name="市辖区" rcode="340401"/>
+      <district name="大通区" rcode="340402"/>
+      <district name="田家庵区" rcode="340403"/>
+      <district name="谢家集区" rcode="340404"/>
+      <district name="八公山区" rcode="340405"/>
+      <district name="潘集区" rcode="340406"/>
+      <district name="凤台县" rcode="340421"/>
+    </city >
+  </province>
+  <province name="福建省" pcode="350000">
+    <city name="福州市" ccode="350100">
+      <district name="市辖区" rcode="350101"/>
+      <district name="鼓楼区" rcode="350102"/>
+      <district name="台江区" rcode="350103"/>
+      <district name="仓山区" rcode="350104"/>
+      <district name="马尾区" rcode="350105"/>
+      <district name="晋安区" rcode="350111"/>
+      <district name="闽侯县" rcode="350121"/>
+      <district name="连江县" rcode="350122"/>
+      <district name="罗源县" rcode="350123"/>
+      <district name="闽清县" rcode="350124"/>
+      <district name="永泰县" rcode="350125"/>
+      <district name="平潭县" rcode="350128"/>
+      <district name="福清市" rcode="350181"/>
+      <district name="长乐市" rcode="350182"/>
+    </city >
+    <city name="厦门市" ccode="350200">
+      <district name="市辖区" rcode="350201"/>
+      <district name="思明区" rcode="350203"/>
+      <district name="海沧区" rcode="350205"/>
+      <district name="湖里区" rcode="350206"/>
+      <district name="集美区" rcode="350211"/>
+      <district name="同安区" rcode="350212"/>
+      <district name="翔安区" rcode="350213"/>
+    </city >
+    <city name="莆田市" ccode="350300">
+      <district name="市辖区" rcode="350301"/>
+      <district name="城厢区" rcode="350302"/>
+      <district name="涵江区" rcode="350303"/>
+      <district name="荔城区" rcode="350304"/>
+      <district name="秀屿区" rcode="350305"/>
+      <district name="仙游县" rcode="350322"/>
+    </city >
+    <city name="三明市" ccode="350400">
+      <district name="市辖区" rcode="350401"/>
+      <district name="梅列区" rcode="350402"/>
+      <district name="三元区" rcode="350403"/>
+      <district name="明溪县" rcode="350421"/>
+      <district name="清流县" rcode="350423"/>
+      <district name="宁化县" rcode="350424"/>
+      <district name="大田县" rcode="350425"/>
+      <district name="尤溪县" rcode="350426"/>
+      <district name="沙县" rcode="350427"/>
+      <district name="将乐县" rcode="350428"/>
+      <district name="泰宁县" rcode="350429"/>
+      <district name="建宁县" rcode="350430"/>
+      <district name="永安市" rcode="350481"/>
+    </city >
+    <city name="泉州市" ccode="350500">
+      <district name="市辖区" rcode="350501"/>
+      <district name="鲤城区" rcode="350502"/>
+      <district name="丰泽区" rcode="350503"/>
+      <district name="洛江区" rcode="350504"/>
+      <district name="泉港区" rcode="350505"/>
+      <district name="惠安县" rcode="350521"/>
+      <district name="安溪县" rcode="350524"/>
+      <district name="永春县" rcode="350525"/>
+      <district name="德化县" rcode="350526"/>
+      <district name="金门县" rcode="350527"/>
+      <district name="石狮市" rcode="350581"/>
+      <district name="晋江市" rcode="350582"/>
+      <district name="南安市" rcode="350583"/>
+    </city >
+    <city name="漳州市" ccode="350600">
+      <district name="市辖区" rcode="350601"/>
+      <district name="芗城区" rcode="350602"/>
+      <district name="龙文区" rcode="350603"/>
+      <district name="云霄县" rcode="350622"/>
+      <district name="漳浦县" rcode="350623"/>
+      <district name="诏安县" rcode="350624"/>
+      <district name="长泰县" rcode="350625"/>
+      <district name="东山县" rcode="350626"/>
+      <district name="南靖县" rcode="350627"/>
+      <district name="平和县" rcode="350628"/>
+      <district name="华安县" rcode="350629"/>
+      <district name="龙海市" rcode="350681"/>
+    </city >
+    <city name="南平市" ccode="350700">
+      <district name="市辖区" rcode="350701"/>
+      <district name="延平区" rcode="350702"/>
+      <district name="顺昌县" rcode="350721"/>
+      <district name="浦城县" rcode="350722"/>
+      <district name="光泽县" rcode="350723"/>
+      <district name="松溪县" rcode="350724"/>
+      <district name="政和县" rcode="350725"/>
+      <district name="邵武市" rcode="350781"/>
+      <district name="武夷山市" rcode="350782"/>
+      <district name="建瓯市" rcode="350783"/>
+      <district name="建阳市" rcode="350784"/>
+    </city >
+    <city name="龙岩市" ccode="350800">
+      <district name="市辖区" rcode="350801"/>
+      <district name="新罗区" rcode="350802"/>
+      <district name="长汀县" rcode="350821"/>
+      <district name="永定县" rcode="350822"/>
+      <district name="上杭县" rcode="350823"/>
+      <district name="武平县" rcode="350824"/>
+      <district name="连城县" rcode="350825"/>
+      <district name="漳平市" rcode="350881"/>
+    </city >
+    <city name="宁德市" ccode="350900">
+      <district name="市辖区" rcode="350901"/>
+      <district name="蕉城区" rcode="350902"/>
+      <district name="霞浦县" rcode="350921"/>
+      <district name="古田县" rcode="350922"/>
+      <district name="屏南县" rcode="350923"/>
+      <district name="寿宁县" rcode="350924"/>
+      <district name="周宁县" rcode="350925"/>
+      <district name="柘荣县" rcode="350926"/>
+      <district name="福安市" rcode="350981"/>
+      <district name="福鼎市" rcode="350982"/>
+    </city >
+  </province>
+  <province name="江西省" pcode="360000">
+    <city name="南昌市" ccode="360100">
+      <district name="市辖区" rcode="360101"/>
+      <district name="东湖区" rcode="360102"/>
+      <district name="西湖区" rcode="360103"/>
+      <district name="青云谱区" rcode="360104"/>
+      <district name="湾里区" rcode="360105"/>
+      <district name="青山湖区" rcode="360111"/>
+      <district name="南昌县" rcode="360121"/>
+      <district name="新建县" rcode="360122"/>
+      <district name="安义县" rcode="360123"/>
+      <district name="进贤县" rcode="360124"/>
+    </city >
+    <city name="景德镇市" ccode="360200">
+      <district name="市辖区" rcode="360201"/>
+      <district name="昌江区" rcode="360202"/>
+      <district name="珠山区" rcode="360203"/>
+      <district name="浮梁县" rcode="360222"/>
+      <district name="乐平市" rcode="360281"/>
+    </city >
+    <city name="萍乡市" ccode="360300">
+      <district name="市辖区" rcode="360301"/>
+      <district name="安源区" rcode="360302"/>
+      <district name="湘东区" rcode="360313"/>
+      <district name="莲花县" rcode="360321"/>
+      <district name="上栗县" rcode="360322"/>
+      <district name="芦溪县" rcode="360323"/>
+    </city >
+    <city name="九江市" ccode="360400">
+      <district name="市辖区" rcode="360401"/>
+      <district name="庐山区" rcode="360402"/>
+      <district name="浔阳区" rcode="360403"/>
+      <district name="九江县" rcode="360421"/>
+      <district name="武宁县" rcode="360423"/>
+      <district name="修水县" rcode="360424"/>
+      <district name="永修县" rcode="360425"/>
+      <district name="德安县" rcode="360426"/>
+      <district name="星子县" rcode="360427"/>
+      <district name="都昌县" rcode="360428"/>
+      <district name="湖口县" rcode="360429"/>
+      <district name="彭泽县" rcode="360430"/>
+      <district name="瑞昌市" rcode="360481"/>
+    </city >
+    <city name="新余市" ccode="360500">
+      <district name="市辖区" rcode="360501"/>
+      <district name="渝水区" rcode="360502"/>
+      <district name="分宜县" rcode="360521"/>
+    </city >
+    <city name="鹰潭市" ccode="360600">
+      <district name="市辖区" rcode="360601"/>
+      <district name="月湖区" rcode="360602"/>
+      <district name="余江县" rcode="360622"/>
+      <district name="贵溪市" rcode="360681"/>
+    </city >
+    <city name="赣州市" ccode="360700">
+      <district name="市辖区" rcode="360701"/>
+      <district name="章贡区" rcode="360702"/>
+      <district name="赣县" rcode="360721"/>
+      <district name="信丰县" rcode="360722"/>
+      <district name="大余县" rcode="360723"/>
+      <district name="上犹县" rcode="360724"/>
+      <district name="崇义县" rcode="360725"/>
+      <district name="安远县" rcode="360726"/>
+      <district name="龙南县" rcode="360727"/>
+      <district name="定南县" rcode="360728"/>
+      <district name="全南县" rcode="360729"/>
+      <district name="宁都县" rcode="360730"/>
+      <district name="于都县" rcode="360731"/>
+      <district name="兴国县" rcode="360732"/>
+      <district name="会昌县" rcode="360733"/>
+      <district name="寻乌县" rcode="360734"/>
+      <district name="石城县" rcode="360735"/>
+      <district name="瑞金市" rcode="360781"/>
+      <district name="南康市" rcode="360782"/>
+    </city >
+    <city name="吉安市" ccode="360800">
+      <district name="市辖区" rcode="360801"/>
+      <district name="吉州区" rcode="360802"/>
+      <district name="青原区" rcode="360803"/>
+      <district name="吉安县" rcode="360821"/>
+      <district name="吉水县" rcode="360822"/>
+      <district name="峡江县" rcode="360823"/>
+      <district name="新干县" rcode="360824"/>
+      <district name="永丰县" rcode="360825"/>
+      <district name="泰和县" rcode="360826"/>
+      <district name="遂川县" rcode="360827"/>
+      <district name="万安县" rcode="360828"/>
+      <district name="安福县" rcode="360829"/>
+      <district name="永新县" rcode="360830"/>
+      <district name="井冈山市" rcode="360881"/>
+    </city >
+    <city name="宜春市" ccode="360900">
+      <district name="市辖区" rcode="360901"/>
+      <district name="袁州区" rcode="360902"/>
+      <district name="奉新县" rcode="360921"/>
+      <district name="万载县" rcode="360922"/>
+      <district name="上高县" rcode="360923"/>
+      <district name="宜丰县" rcode="360924"/>
+      <district name="靖安县" rcode="360925"/>
+      <district name="铜鼓县" rcode="360926"/>
+      <district name="丰城市" rcode="360981"/>
+      <district name="樟树市" rcode="360982"/>
+      <district name="高安市" rcode="360983"/>
+    </city >
+    <city name="抚州市" ccode="361000">
+      <district name="市辖区" rcode="361001"/>
+      <district name="临川区" rcode="361002"/>
+      <district name="南城县" rcode="361021"/>
+      <district name="黎川县" rcode="361022"/>
+      <district name="南丰县" rcode="361023"/>
+      <district name="崇仁县" rcode="361024"/>
+      <district name="乐安县" rcode="361025"/>
+      <district name="宜黄县" rcode="361026"/>
+      <district name="金溪县" rcode="361027"/>
+      <district name="资溪县" rcode="361028"/>
+      <district name="东乡县" rcode="361029"/>
+    </city >
+    <city name="上饶市" ccode="361100">
+    </city >
+  </province>
+  <province name="山东省" pcode="370000">
+    <city name="济南市" ccode="370100">
+    </city >
+    <city name="青岛市" ccode="370200">
+    </city >
+    <city name="淄博市" ccode="370300">
+    </city >
+    <city name="枣庄市" ccode="370400">
+    </city >
+    <city name="东营市" ccode="370500">
+    </city >
+    <city name="烟台市" ccode="370600">
+    </city >
+    <city name="潍坊市" ccode="370700">
+    </city >
+    <city name="济宁市" ccode="370800">
+    </city >
+    <city name="泰安市" ccode="370900">
+    </city >
+    <city name="威海市" ccode="371000">
+    </city >
+    <city name="日照市" ccode="371100">
+    </city >
+    <city name="莱芜市" ccode="371200">
+    </city >
+    <city name="临沂市" ccode="371300">
+    </city >
+    <city name="德州市" ccode="371400">
+    </city >
+    <city name="聊城市" ccode="371500">
+    </city >
+    <city name="滨州市" ccode="371600">
+    </city >
+    <city name="荷泽市" ccode="371700">
+    </city >
+  </province>
+  <province name="河南省" pcode="410000">
+    <city name="郑州市" ccode="410100">
+    </city >
+    <city name="开封市" ccode="410200">
+    </city >
+    <city name="洛阳市" ccode="410300">
+    </city >
+    <city name="平顶山市" ccode="410400">
+    </city >
+    <city name="安阳市" ccode="410500">
+    </city >
+    <city name="鹤壁市" ccode="410600">
+    </city >
+    <city name="新乡市" ccode="410700">
+    </city >
+    <city name="焦作市" ccode="410800">
+    </city >
+    <city name="濮阳市" ccode="410900">
+    </city >
+    <city name="许昌市" ccode="411000">
+    </city >
+    <city name="漯河市" ccode="411100">
+    </city >
+    <city name="三门峡市" ccode="411200">
+    </city >
+    <city name="南阳市" ccode="411300">
+    </city >
+    <city name="商丘市" ccode="411400">
+    </city >
+    <city name="信阳市" ccode="411500">
+    </city >
+    <city name="周口市" ccode="411600">
+    </city >
+    <city name="驻马店市" ccode="411700">
+    </city >
+  </province>
+  <province name="湖北省" pcode="420000">
+    <city name="武汉市" ccode="420100">
+    </city >
+    <city name="黄石市" ccode="420200">
+    </city >
+    <city name="十堰市" ccode="420300">
+    </city >
+    <city name="宜昌市" ccode="420500">
+    </city >
+    <city name="襄樊市" ccode="420600">
+    </city >
+    <city name="鄂州市" ccode="420700">
+    </city >
+    <city name="荆门市" ccode="420800">
+    </city >
+    <city name="孝感市" ccode="420900">
+    </city >
+    <city name="荆州市" ccode="421000">
+    </city >
+    <city name="黄冈市" ccode="421100">
+    </city >
+    <city name="咸宁市" ccode="421200">
+    </city >
+    <city name="随州市" ccode="421300">
+    </city >
+    <city name="恩施土家族苗族自治州" ccode="422800">
+    </city >
+    <city name="省直辖行政单位" ccode="429000">
+    </city >
+  </province>
+  <province name="湖南省" pcode="430000">
+    <city name="长沙市" ccode="430100">
+    </city >
+    <city name="株洲市" ccode="430200">
+    </city >
+    <city name="湘潭市" ccode="430300">
+    </city >
+    <city name="衡阳市" ccode="430400">
+    </city >
+    <city name="邵阳市" ccode="430500">
+    </city >
+    <city name="岳阳市" ccode="430600">
+    </city >
+    <city name="常德市" ccode="430700">
+    </city >
+    <city name="张家界市" ccode="430800">
+    </city >
+    <city name="益阳市" ccode="430900">
+    </city >
+    <city name="郴州市" ccode="431000">
+    </city >
+    <city name="永州市" ccode="431100">
+    </city >
+    <city name="怀化市" ccode="431200">
+    </city >
+    <city name="娄底市" ccode="431300">
+    </city >
+    <city name="湘西土家族苗族自治州" ccode="433100">
+    </city >
+  </province>
+  <province name="广东省" pcode="440000">
+    <city name="广州市" ccode="440100">
+    </city >
+    <city name="韶关市" ccode="440200">
+    </city >
+    <city name="深圳市" ccode="440300">
+    </city >
+    <city name="珠海市" ccode="440400">
+    </city >
+    <city name="汕头市" ccode="440500">
+    </city >
+    <city name="佛山市" ccode="440600">
+    </city >
+    <city name="江门市" ccode="440700">
+    </city >
+    <city name="湛江市" ccode="440800">
+    </city >
+    <city name="茂名市" ccode="440900">
+    </city >
+    <city name="肇庆市" ccode="441200">
+    </city >
+    <city name="惠州市" ccode="441300">
+    </city >
+    <city name="梅州市" ccode="441400">
+    </city >
+    <city name="汕尾市" ccode="441500">
+    </city >
+    <city name="河源市" ccode="441600">
+    </city >
+    <city name="阳江市" ccode="441700">
+    </city >
+    <city name="清远市" ccode="441800">
+    </city >
+    <city name="东莞市" ccode="441900">
+    </city >
+    <city name="中山市" ccode="442000">
+    </city >
+    <city name="潮州市" ccode="445100">
+    </city >
+    <city name="揭阳市" ccode="445200">
+    </city >
+    <city name="云浮市" ccode="445300">
+    </city >
+  </province>
+  <province name="天津市" pcode="120000">
+    <city name="天津市" ccode="120100">
+      <district name="和平区" rcode="120101"/>
+      <district name="河东区" rcode="120102"/>
+      <district name="河西区" rcode="120103"/>
+      <district name="南开区" rcode="120104"/>
+      <district name="河北区" rcode="120105"/>
+      <district name="红桥区" rcode="120106"/>
+      <district name="塘沽区" rcode="120107"/>
+      <district name="汉沽区" rcode="120108"/>
+      <district name="大港区" rcode="120109"/>
+      <district name="东丽区" rcode="120110"/>
+      <district name="西青区" rcode="120111"/>
+      <district name="津南区" rcode="120112"/>
+      <district name="北辰区" rcode="120113"/>
+      <district name="武清区" rcode="120114"/>
+      <district name="宝坻区" rcode="120115"/>
+    </city >
+  </province>
+  <province name="广西壮族自治区" pcode="450000">
+    <city name="南宁市" ccode="450100">
+    </city >
+    <city name="柳州市" ccode="450200">
+    </city >
+    <city name="桂林市" ccode="450300">
+    </city >
+    <city name="梧州市" ccode="450400">
+    </city >
+    <city name="北海市" ccode="450500">
+    </city >
+    <city name="防城港市" ccode="450600">
+    </city >
+    <city name="钦州市" ccode="450700">
+    </city >
+    <city name="贵港市" ccode="450800">
+    </city >
+    <city name="玉林市" ccode="450900">
+    </city >
+    <city name="百色市" ccode="451000">
+    </city >
+    <city name="贺州市" ccode="451100">
+    </city >
+    <city name="河池市" ccode="451200">
+    </city >
+    <city name="来宾市" ccode="451300">
+    </city >
+    <city name="崇左市" ccode="451400">
+    </city >
+  </province>
+  <province name="海南省" pcode="460000">
+    <city name="海口市" ccode="460100">
+    </city >
+    <city name="三亚市" ccode="460200">
+    </city >
+    <city name="省直辖县级行政单位" ccode="469000">
+    </city >
+  </province>
+  <province name="重庆市" pcode="500000">
+    <city name="重庆市" ccode="500100">
+    </city >
+  </province>
+  <province name="四川省" pcode="510000">
+    <city name="成都市" ccode="510100">
+    </city >
+    <city name="自贡市" ccode="510300">
+    </city >
+    <city name="攀枝花市" ccode="510400">
+    </city >
+    <city name="泸州市" ccode="510500">
+    </city >
+    <city name="德阳市" ccode="510600">
+    </city >
+    <city name="绵阳市" ccode="510700">
+    </city >
+    <city name="广元市" ccode="510800">
+    </city >
+    <city name="遂宁市" ccode="510900">
+    </city >
+    <city name="内江市" ccode="511000">
+    </city >
+    <city name="乐山市" ccode="511100">
+    </city >
+    <city name="南充市" ccode="511300">
+    </city >
+    <city name="眉山市" ccode="511400">
+    </city >
+    <city name="宜宾市" ccode="511500">
+    </city >
+    <city name="广安市" ccode="511600">
+    </city >
+    <city name="达州市" ccode="511700">
+    </city >
+    <city name="雅安市" ccode="511800">
+    </city >
+    <city name="巴中市" ccode="511900">
+    </city >
+    <city name="资阳市" ccode="512000">
+    </city >
+    <city name="阿坝藏族羌族自治州" ccode="513200">
+    </city >
+    <city name="甘孜藏族自治州" ccode="513300">
+    </city >
+    <city name="凉山彝族自治州" ccode="513400">
+    </city >
+  </province>
+  <province name="贵州省" pcode="520000">
+    <city name="贵阳市" ccode="520100">
+    </city >
+    <city name="六盘水市" ccode="520200">
+    </city >
+    <city name="遵义市" ccode="520300">
+    </city >
+    <city name="安顺市" ccode="520400">
+    </city >
+    <city name="铜仁地区" ccode="522200">
+    </city >
+    <city name="黔西南布依族苗族自治州" ccode="522300">
+    </city >
+    <city name="毕节地区" ccode="522400">
+    </city >
+    <city name="黔东南苗族侗族自治州" ccode="522600">
+    </city >
+    <city name="黔南布依族苗族自治州" ccode="522700">
+    </city >
+  </province>
+  <province name="云南省" pcode="530000">
+    <city name="昆明市" ccode="530100">
+    </city >
+    <city name="曲靖市" ccode="530300">
+    </city >
+    <city name="玉溪市" ccode="530400">
+    </city >
+    <city name="保山市" ccode="530500">
+    </city >
+    <city name="昭通市" ccode="530600">
+    </city >
+    <city name="丽江市" ccode="530700">
+    </city >
+    <city name="思茅市" ccode="530800">
+    </city >
+    <city name="临沧市" ccode="530900">
+    </city >
+    <city name="楚雄彝族自治州" ccode="532300">
+    </city >
+    <city name="红河哈尼族彝族自治州" ccode="532500">
+    </city >
+    <city name="文山壮族苗族自治州" ccode="532600">
+    </city >
+    <city name="西双版纳傣族自治州" ccode="532800">
+    </city >
+    <city name="大理白族自治州" ccode="532900">
+    </city >
+    <city name="德宏傣族景颇族自治州" ccode="533100">
+    </city >
+    <city name="怒江傈僳族自治州" ccode="533300">
+    </city >
+    <city name="迪庆藏族自治州" ccode="533400">
+    </city >
+  </province>
+  <province name="西藏自治区" pcode="540000">
+    <city name="拉萨市" ccode="540100">
+    </city >
+    <city name="昌都地区" ccode="542100">
+    </city >
+    <city name="山南地区" ccode="542200">
+    </city >
+    <city name="日喀则地区" ccode="542300">
+    </city >
+    <city name="那曲地区" ccode="542400">
+    </city >
+    <city name="阿里地区" ccode="542500">
+    </city >
+    <city name="林芝地区" ccode="542600">
+    </city >
+  </province>
+  <province name="陕西省" pcode="610000">
+    <city name="西安市" ccode="610100">
+    </city >
+    <city name="铜川市" ccode="610200">
+    </city >
+    <city name="宝鸡市" ccode="610300">
+    </city >
+    <city name="咸阳市" ccode="610400">
+    </city >
+    <city name="渭南市" ccode="610500">
+    </city >
+    <city name="延安市" ccode="610600">
+    </city >
+    <city name="汉中市" ccode="610700">
+    </city >
+    <city name="榆林市" ccode="610800">
+    </city >
+    <city name="安康市" ccode="610900">
+    </city >
+    <city name="商洛市" ccode="611000">
+    </city >
+  </province>
+  <province name="甘肃省" pcode="620000">
+    <city name="兰州市" ccode="620100">
+    </city >
+    <city name="嘉峪关市" ccode="620200">
+    </city >
+    <city name="金昌市" ccode="620300">
+    </city >
+    <city name="白银市" ccode="620400">
+    </city >
+    <city name="天水市" ccode="620500">
+    </city >
+    <city name="武威市" ccode="620600">
+    </city >
+    <city name="张掖市" ccode="620700">
+    </city >
+    <city name="平凉市" ccode="620800">
+    </city >
+    <city name="酒泉市" ccode="620900">
+    </city >
+    <city name="庆阳市" ccode="621000">
+    </city >
+    <city name="定西市" ccode="621100">
+    </city >
+    <city name="陇南市" ccode="621200">
+    </city >
+    <city name="临夏回族自治州" ccode="622900">
+    </city >
+    <city name="甘南藏族自治州" ccode="623000">
+    </city >
+  </province>
+  <province name="青海省" pcode="630000">
+    <city name="西宁市" ccode="630100">
+    </city >
+    <city name="海东地区" ccode="632100">
+    </city >
+    <city name="海北藏族自治州" ccode="632200">
+    </city >
+    <city name="黄南藏族自治州" ccode="632300">
+    </city >
+    <city name="海南藏族自治州" ccode="632500">
+    </city >
+    <city name="果洛藏族自治州" ccode="632600">
+    </city >
+    <city name="玉树藏族自治州" ccode="632700">
+    </city >
+    <city name="海西蒙古族藏族自治州" ccode="632800">
+    </city >
+  </province>
+  <province name="河北省" pcode="130000">
+    <city name="沧州市" ccode="130900">
+      <district name="市辖区" rcode="130901"/>
+      <district name="新华区" rcode="130902"/>
+      <district name="运河区" rcode="130903"/>
+      <district name="沧县" rcode="130921"/>
+      <district name="青县" rcode="130922"/>
+      <district name="东光县" rcode="130923"/>
+      <district name="海兴县" rcode="130924"/>
+      <district name="盐山县" rcode="130925"/>
+      <district name="肃宁县" rcode="130926"/>
+      <district name="南皮县" rcode="130927"/>
+      <district name="吴桥县" rcode="130928"/>
+      <district name="献县" rcode="130929"/>
+      <district name="孟村回族自治县" rcode="130930"/>
+      <district name="泊头市" rcode="130981"/>
+      <district name="任丘市" rcode="130982"/>
+      <district name="黄骅市" rcode="130983"/>
+      <district name="河间市" rcode="130984"/>
+    </city >
+    <city name="廊坊市" ccode="131000">
+      <district name="市辖区" rcode="131001"/>
+      <district name="安次区" rcode="131002"/>
+      <district name="广阳区" rcode="131003"/>
+      <district name="固安县" rcode="131022"/>
+      <district name="永清县" rcode="131023"/>
+      <district name="香河县" rcode="131024"/>
+      <district name="大城县" rcode="131025"/>
+      <district name="文安县" rcode="131026"/>
+      <district name="大厂回族自治县" rcode="131028"/>
+      <district name="霸州市" rcode="131081"/>
+      <district name="三河市" rcode="131082"/>
+    </city >
+    <city name="衡水市" ccode="131100">
+      <district name="市辖区" rcode="131101"/>
+      <district name="桃城区" rcode="131102"/>
+      <district name="枣强县" rcode="131121"/>
+      <district name="武邑县" rcode="131122"/>
+      <district name="武强县" rcode="131123"/>
+      <district name="饶阳县" rcode="131124"/>
+      <district name="安平县" rcode="131125"/>
+      <district name="故城县" rcode="131126"/>
+      <district name="景县" rcode="131127"/>
+      <district name="阜城县" rcode="131128"/>
+      <district name="冀州市" rcode="131181"/>
+      <district name="深州市" rcode="131182"/>
+    </city >
+    <city name="石家庄市" ccode="130100">
+      <district name="市辖区" rcode="130101"/>
+      <district name="长安区" rcode="130102"/>
+      <district name="桥东区" rcode="130103"/>
+      <district name="桥西区" rcode="130104"/>
+      <district name="新华区" rcode="130105"/>
+      <district name="井陉矿区" rcode="130107"/>
+      <district name="裕华区" rcode="130108"/>
+      <district name="井陉县" rcode="130121"/>
+      <district name="正定县" rcode="130123"/>
+      <district name="栾城县" rcode="130124"/>
+      <district name="行唐县" rcode="130125"/>
+      <district name="灵寿县" rcode="130126"/>
+      <district name="高邑县" rcode="130127"/>
+      <district name="深泽县" rcode="130128"/>
+      <district name="赞皇县" rcode="130129"/>
+      <district name="无极县" rcode="130130"/>
+      <district name="平山县" rcode="130131"/>
+      <district name="元氏县" rcode="130132"/>
+      <district name="赵县" rcode="130133"/>
+      <district name="辛集市" rcode="130181"/>
+      <district name="藁城市" rcode="130182"/>
+      <district name="晋州市" rcode="130183"/>
+      <district name="新乐市" rcode="130184"/>
+      <district name="鹿泉市" rcode="130185"/>
+    </city >
+    <city name="唐山市" ccode="130200">
+      <district name="市辖区" rcode="130201"/>
+      <district name="路南区" rcode="130202"/>
+      <district name="路北区" rcode="130203"/>
+      <district name="古冶区" rcode="130204"/>
+      <district name="开平区" rcode="130205"/>
+      <district name="丰南区" rcode="130207"/>
+      <district name="丰润区" rcode="130208"/>
+      <district name="滦县" rcode="130223"/>
+      <district name="滦南县" rcode="130224"/>
+      <district name="乐亭县" rcode="130225"/>
+      <district name="迁西县" rcode="130227"/>
+      <district name="玉田县" rcode="130229"/>
+      <district name="唐海县" rcode="130230"/>
+      <district name="遵化市" rcode="130281"/>
+      <district name="迁安市" rcode="130283"/>
+    </city >
+    <city name="秦皇岛市" ccode="130300">
+      <district name="市辖区" rcode="130301"/>
+      <district name="海港区" rcode="130302"/>
+      <district name="山海关区" rcode="130303"/>
+      <district name="北戴河区" rcode="130304"/>
+      <district name="青龙满族自治县" rcode="130321"/>
+      <district name="昌黎县" rcode="130322"/>
+      <district name="抚宁县" rcode="130323"/>
+      <district name="卢龙县" rcode="130324"/>
+    </city >
+    <city name="邯郸市" ccode="130400">
+      <district name="馆陶县" rcode="130433"/>
+      <district name="魏县" rcode="130434"/>
+      <district name="曲周县" rcode="130435"/>
+      <district name="武安市" rcode="130481"/>
+      <district name="市辖区" rcode="130401"/>
+      <district name="邯山区" rcode="130402"/>
+      <district name="丛台区" rcode="130403"/>
+      <district name="复兴区" rcode="130404"/>
+      <district name="峰峰矿区" rcode="130406"/>
+      <district name="邯郸县" rcode="130421"/>
+      <district name="临漳县" rcode="130423"/>
+      <district name="成安县" rcode="130424"/>
+      <district name="大名县" rcode="130425"/>
+      <district name="涉县" rcode="130426"/>
+      <district name="磁县" rcode="130427"/>
+      <district name="肥乡县" rcode="130428"/>
+      <district name="永年县" rcode="130429"/>
+      <district name="邱县" rcode="130430"/>
+      <district name="鸡泽县" rcode="130431"/>
+      <district name="广平县" rcode="130432"/>
+    </city >
+    <city name="邢台市" ccode="130500">
+      <district name="市辖区" rcode="130501"/>
+      <district name="桥东区" rcode="130502"/>
+      <district name="桥西区" rcode="130503"/>
+      <district name="邢台县" rcode="130521"/>
+      <district name="临城县" rcode="130522"/>
+      <district name="内丘县" rcode="130523"/>
+      <district name="柏乡县" rcode="130524"/>
+      <district name="隆尧县" rcode="130525"/>
+      <district name="任县" rcode="130526"/>
+      <district name="南和县" rcode="130527"/>
+      <district name="宁晋县" rcode="130528"/>
+      <district name="巨鹿县" rcode="130529"/>
+      <district name="新河县" rcode="130530"/>
+      <district name="广宗县" rcode="130531"/>
+      <district name="平乡县" rcode="130532"/>
+      <district name="威县" rcode="130533"/>
+      <district name="清河县" rcode="130534"/>
+      <district name="临西县" rcode="130535"/>
+      <district name="南宫市" rcode="130581"/>
+      <district name="沙河市" rcode="130582"/>
+    </city >
+    <city name="保定市" ccode="130600">
+      <district name="市辖区" rcode="130601"/>
+      <district name="新市区" rcode="130602"/>
+      <district name="北市区" rcode="130603"/>
+      <district name="南市区" rcode="130604"/>
+      <district name="满城县" rcode="130621"/>
+      <district name="清苑县" rcode="130622"/>
+      <district name="涞水县" rcode="130623"/>
+      <district name="阜平县" rcode="130624"/>
+      <district name="徐水县" rcode="130625"/>
+      <district name="定兴县" rcode="130626"/>
+      <district name="唐县" rcode="130627"/>
+      <district name="高阳县" rcode="130628"/>
+      <district name="容城县" rcode="130629"/>
+      <district name="涞源县" rcode="130630"/>
+      <district name="望都县" rcode="130631"/>
+      <district name="安新县" rcode="130632"/>
+      <district name="易县" rcode="130633"/>
+      <district name="曲阳县" rcode="130634"/>
+      <district name="蠡县" rcode="130635"/>
+      <district name="顺平县" rcode="130636"/>
+      <district name="博野县" rcode="130637"/>
+      <district name="雄县" rcode="130638"/>
+      <district name="涿州市" rcode="130681"/>
+      <district name="定州市" rcode="130682"/>
+      <district name="安国市" rcode="130683"/>
+      <district name="高碑店市" rcode="130684"/>
+    </city >
+    <city name="张家口市" ccode="130700">
+      <district name="市辖区" rcode="130701"/>
+      <district name="桥东区" rcode="130702"/>
+      <district name="桥西区" rcode="130703"/>
+      <district name="宣化区" rcode="130705"/>
+      <district name="下花园区" rcode="130706"/>
+      <district name="宣化县" rcode="130721"/>
+      <district name="张北县" rcode="130722"/>
+      <district name="康保县" rcode="130723"/>
+      <district name="沽源县" rcode="130724"/>
+      <district name="尚义县" rcode="130725"/>
+      <district name="蔚县" rcode="130726"/>
+      <district name="阳原县" rcode="130727"/>
+      <district name="怀安县" rcode="130728"/>
+      <district name="万全县" rcode="130729"/>
+      <district name="怀来县" rcode="130730"/>
+      <district name="涿鹿县" rcode="130731"/>
+      <district name="赤城县" rcode="130732"/>
+      <district name="崇礼县" rcode="130733"/>
+    </city >
+    <city name="承德市" ccode="130800">
+      <district name="市辖区" rcode="130801"/>
+      <district name="双桥区" rcode="130802"/>
+      <district name="双滦区" rcode="130803"/>
+      <district name="鹰手营子矿区" rcode="130804"/>
+      <district name="承德县" rcode="130821"/>
+      <district name="兴隆县" rcode="130822"/>
+      <district name="平泉县" rcode="130823"/>
+      <district name="滦平县" rcode="130824"/>
+      <district name="隆化县" rcode="130825"/>
+      <district name="丰宁满族自治县" rcode="130826"/>
+      <district name="宽城满族自治县" rcode="130827"/>
+      <district name="围场满族蒙古族自治县" rcode="130828"/>
+    </city >
+  </province>
+  <province name="宁夏回族自治区" pcode="640000">
+    <city name="银川市" ccode="640100">
+    </city >
+    <city name="石嘴山市" ccode="640200">
+    </city >
+    <city name="吴忠市" ccode="640300">
+    </city >
+    <city name="固原市" ccode="640400">
+    </city >
+    <city name="中卫市" ccode="640500">
+    </city >
+  </province>
+  <province name="新疆维吾尔自治区" pcode="650000">
+    <city name="乌鲁木齐市" ccode="650100">
+    </city >
+    <city name="克拉玛依市" ccode="650200">
+    </city >
+    <city name="吐鲁番地区" ccode="652100">
+    </city >
+    <city name="哈密地区" ccode="652200">
+    </city >
+    <city name="昌吉回族自治州" ccode="652300">
+    </city >
+    <city name="博尔塔拉蒙古自治州" ccode="652700">
+    </city >
+    <city name="巴音郭楞蒙古自治州" ccode="652800">
+    </city >
+    <city name="阿克苏地区" ccode="652900">
+    </city >
+    <city name="克孜勒苏柯尔克孜自治州" ccode="653000">
+    </city >
+    <city name="喀什地区" ccode="653100">
+    </city >
+    <city name="和田地区" ccode="653200">
+    </city >
+    <city name="伊犁哈萨克自治州" ccode="654000">
+    </city >
+    <city name="塔城地区" ccode="654200">
+    </city >
+    <city name="阿勒泰地区" ccode="654300">
+    </city >
+    <city name="省直辖行政单位" ccode="659000">
+    </city >
+  </province>
+  <province name="台湾省" pcode="710000">
+  </province>
+  <province name="香港特别行政区" pcode="810000">
+  </province>
+  <province name="澳门特别行政区" pcode="820000">
+  </province>
+  <province name="山西省" pcode="140000">
+    <city name="太原市" ccode="140100">
+      <district name="市辖区" rcode="140101"/>
+      <district name="小店区" rcode="140105"/>
+      <district name="迎泽区" rcode="140106"/>
+      <district name="杏花岭区" rcode="140107"/>
+      <district name="尖草坪区" rcode="140108"/>
+      <district name="万柏林区" rcode="140109"/>
+      <district name="晋源区" rcode="140110"/>
+      <district name="清徐县" rcode="140121"/>
+      <district name="阳曲县" rcode="140122"/>
+      <district name="娄烦县" rcode="140123"/>
+      <district name="古交市" rcode="140181"/>
+    </city >
+    <city name="大同市" ccode="140200">
+      <district name="市辖区" rcode="140201"/>
+      <district name="城区" rcode="140202"/>
+      <district name="矿区" rcode="140203"/>
+      <district name="南郊区" rcode="140211"/>
+      <district name="新荣区" rcode="140212"/>
+      <district name="阳高县" rcode="140221"/>
+      <district name="天镇县" rcode="140222"/>
+      <district name="广灵县" rcode="140223"/>
+      <district name="灵丘县" rcode="140224"/>
+      <district name="浑源县" rcode="140225"/>
+      <district name="左云县" rcode="140226"/>
+      <district name="大同县" rcode="140227"/>
+    </city >
+    <city name="阳泉市" ccode="140300">
+      <district name="市辖区" rcode="140301"/>
+      <district name="城区" rcode="140302"/>
+      <district name="矿区" rcode="140303"/>
+      <district name="郊区" rcode="140311"/>
+      <district name="平定县" rcode="140321"/>
+      <district name="盂县" rcode="140322"/>
+    </city >
+    <city name="长治市" ccode="140400">
+      <district name="市辖区" rcode="140401"/>
+      <district name="城区" rcode="140402"/>
+      <district name="郊区" rcode="140411"/>
+      <district name="长治县" rcode="140421"/>
+      <district name="襄垣县" rcode="140423"/>
+      <district name="屯留县" rcode="140424"/>
+      <district name="平顺县" rcode="140425"/>
+      <district name="黎城县" rcode="140426"/>
+      <district name="壶关县" rcode="140427"/>
+      <district name="长子县" rcode="140428"/>
+      <district name="武乡县" rcode="140429"/>
+      <district name="沁县" rcode="140430"/>
+      <district name="沁源县" rcode="140431"/>
+      <district name="潞城市" rcode="140481"/>
+    </city >
+    <city name="晋城市" ccode="140500">
+      <district name="市辖区" rcode="140501"/>
+      <district name="城区" rcode="140502"/>
+      <district name="沁水县" rcode="140521"/>
+      <district name="阳城县" rcode="140522"/>
+      <district name="陵川县" rcode="140524"/>
+      <district name="泽州县" rcode="140525"/>
+      <district name="高平市" rcode="140581"/>
+    </city >
+    <city name="朔州市" ccode="140600">
+      <district name="市辖区" rcode="140601"/>
+      <district name="朔城区" rcode="140602"/>
+      <district name="平鲁区" rcode="140603"/>
+      <district name="山阴县" rcode="140621"/>
+      <district name="应县" rcode="140622"/>
+      <district name="右玉县" rcode="140623"/>
+      <district name="怀仁县" rcode="140624"/>
+    </city >
+    <city name="晋中市" ccode="140700">
+      <district name="市辖区" rcode="140701"/>
+      <district name="榆次区" rcode="140702"/>
+      <district name="榆社县" rcode="140721"/>
+      <district name="左权县" rcode="140722"/>
+      <district name="和顺县" rcode="140723"/>
+      <district name="昔阳县" rcode="140724"/>
+      <district name="寿阳县" rcode="140725"/>
+      <district name="太谷县" rcode="140726"/>
+      <district name="祁县" rcode="140727"/>
+      <district name="平遥县" rcode="140728"/>
+      <district name="灵石县" rcode="140729"/>
+      <district name="介休市" rcode="140781"/>
+    </city >
+    <city name="运城市" ccode="140800">
+      <district name="市辖区" rcode="140801"/>
+      <district name="盐湖区" rcode="140802"/>
+      <district name="临猗县" rcode="140821"/>
+      <district name="万荣县" rcode="140822"/>
+      <district name="闻喜县" rcode="140823"/>
+      <district name="稷山县" rcode="140824"/>
+      <district name="新绛县" rcode="140825"/>
+      <district name="绛县" rcode="140826"/>
+      <district name="垣曲县" rcode="140827"/>
+      <district name="夏县" rcode="140828"/>
+      <district name="平陆县" rcode="140829"/>
+      <district name="芮城县" rcode="140830"/>
+      <district name="永济市" rcode="140881"/>
+      <district name="河津市" rcode="140882"/>
+    </city >
+    <city name="忻州市" ccode="140900">
+      <district name="市辖区" rcode="140901"/>
+      <district name="忻府区" rcode="140902"/>
+      <district name="定襄县" rcode="140921"/>
+      <district name="五台县" rcode="140922"/>
+      <district name="代县" rcode="140923"/>
+      <district name="繁峙县" rcode="140924"/>
+      <district name="宁武县" rcode="140925"/>
+      <district name="静乐县" rcode="140926"/>
+      <district name="神池县" rcode="140927"/>
+      <district name="五寨县" rcode="140928"/>
+      <district name="岢岚县" rcode="140929"/>
+      <district name="河曲县" rcode="140930"/>
+      <district name="保德县" rcode="140931"/>
+      <district name="偏关县" rcode="140932"/>
+      <district name="原平市" rcode="140981"/>
+    </city >
+    <city name="临汾市" ccode="141000">
+      <district name="市辖区" rcode="141001"/>
+      <district name="尧都区" rcode="141002"/>
+      <district name="曲沃县" rcode="141021"/>
+      <district name="翼城县" rcode="141022"/>
+      <district name="襄汾县" rcode="141023"/>
+      <district name="洪洞县" rcode="141024"/>
+      <district name="古县" rcode="141025"/>
+      <district name="安泽县" rcode="141026"/>
+      <district name="浮山县" rcode="141027"/>
+      <district name="吉县" rcode="141028"/>
+      <district name="乡宁县" rcode="141029"/>
+      <district name="大宁县" rcode="141030"/>
+      <district name="隰县" rcode="141031"/>
+      <district name="永和县" rcode="141032"/>
+      <district name="蒲县" rcode="141033"/>
+      <district name="汾西县" rcode="141034"/>
+      <district name="侯马市" rcode="141081"/>
+      <district name="霍州市" rcode="141082"/>
+    </city >
+    <city name="吕梁市" ccode="141100">
+      <district name="市辖区" rcode="141101"/>
+      <district name="离石区" rcode="141102"/>
+      <district name="文水县" rcode="141121"/>
+      <district name="交城县" rcode="141122"/>
+      <district name="兴县" rcode="141123"/>
+      <district name="临县" rcode="141124"/>
+      <district name="柳林县" rcode="141125"/>
+      <district name="石楼县" rcode="141126"/>
+      <district name="岚县" rcode="141127"/>
+      <district name="方山县" rcode="141128"/>
+      <district name="中阳县" rcode="141129"/>
+      <district name="交口县" rcode="141130"/>
+      <district name="孝义市" rcode="141181"/>
+      <district name="汾阳市" rcode="141182"/>
+    </city >
+  </province>
+  <province name="内蒙古自治区" pcode="150000">
+    <city name="呼和浩特市" ccode="150100">
+      <district name="市辖区" rcode="150101"/>
+      <district name="新城区" rcode="150102"/>
+      <district name="回民区" rcode="150103"/>
+      <district name="玉泉区" rcode="150104"/>
+      <district name="赛罕区" rcode="150105"/>
+      <district name="土默特左旗" rcode="150121"/>
+      <district name="托克托县" rcode="150122"/>
+      <district name="和林格尔县" rcode="150123"/>
+      <district name="清水河县" rcode="150124"/>
+      <district name="武川县" rcode="150125"/>
+    </city >
+    <city name="包头市" ccode="150200">
+      <district name="市辖区" rcode="150201"/>
+      <district name="东河区" rcode="150202"/>
+      <district name="昆都仑区" rcode="150203"/>
+      <district name="青山区" rcode="150204"/>
+      <district name="石拐区" rcode="150205"/>
+      <district name="白云矿区" rcode="150206"/>
+      <district name="九原区" rcode="150207"/>
+      <district name="土默特右旗" rcode="150221"/>
+      <district name="固阳县" rcode="150222"/>
+      <district name="达尔罕茂明安联合旗" rcode="150223"/>
+    </city >
+    <city name="乌海市" ccode="150300">
+      <district name="市辖区" rcode="150301"/>
+      <district name="海勃湾区" rcode="150302"/>
+      <district name="海南区" rcode="150303"/>
+      <district name="乌达区" rcode="150304"/>
+    </city >
+    <city name="赤峰市" ccode="150400">
+      <district name="市辖区" rcode="150401"/>
+      <district name="红山区" rcode="150402"/>
+      <district name="元宝山区" rcode="150403"/>
+      <district name="松山区" rcode="150404"/>
+      <district name="阿鲁科尔沁旗" rcode="150421"/>
+      <district name="巴林左旗" rcode="150422"/>
+      <district name="巴林右旗" rcode="150423"/>
+      <district name="林西县" rcode="150424"/>
+      <district name="克什克腾旗" rcode="150425"/>
+      <district name="翁牛特旗" rcode="150426"/>
+      <district name="喀喇沁旗" rcode="150428"/>
+      <district name="宁城县" rcode="150429"/>
+      <district name="敖汉旗" rcode="150430"/>
+    </city >
+    <city name="通辽市" ccode="150500">
+      <district name="市辖区" rcode="150501"/>
+      <district name="科尔沁区" rcode="150502"/>
+      <district name="科尔沁左翼中旗" rcode="150521"/>
+      <district name="科尔沁左翼后旗" rcode="150522"/>
+      <district name="开鲁县" rcode="150523"/>
+      <district name="库伦旗" rcode="150524"/>
+      <district name="奈曼旗" rcode="150525"/>
+      <district name="扎鲁特旗" rcode="150526"/>
+      <district name="霍林郭勒市" rcode="150581"/>
+    </city >
+    <city name="鄂尔多斯市" ccode="150600">
+      <district name="东胜区" rcode="150602"/>
+      <district name="达拉特旗" rcode="150621"/>
+      <district name="准格尔旗" rcode="150622"/>
+      <district name="鄂托克前旗" rcode="150623"/>
+      <district name="鄂托克旗" rcode="150624"/>
+      <district name="杭锦旗" rcode="150625"/>
+      <district name="乌审旗" rcode="150626"/>
+      <district name="伊金霍洛旗" rcode="150627"/>
+    </city >
+    <city name="呼伦贝尔市" ccode="150700">
+      <district name="市辖区" rcode="150701"/>
+      <district name="海拉尔区" rcode="150702"/>
+      <district name="阿荣旗" rcode="150721"/>
+      <district name="莫力达瓦达斡尔族自治旗" rcode="150722"/>
+      <district name="鄂伦春自治旗" rcode="150723"/>
+      <district name="鄂温克族自治旗" rcode="150724"/>
+      <district name="陈巴尔虎旗" rcode="150725"/>
+      <district name="新巴尔虎左旗" rcode="150726"/>
+      <district name="新巴尔虎右旗" rcode="150727"/>
+      <district name="满洲里市" rcode="150781"/>
+      <district name="牙克石市" rcode="150782"/>
+      <district name="扎兰屯市" rcode="150783"/>
+      <district name="额尔古纳市" rcode="150784"/>
+      <district name="根河市" rcode="150785"/>
+    </city >
+    <city name="巴彦淖尔市" ccode="150800">
+      <district name="市辖区" rcode="150801"/>
+      <district name="临河区" rcode="150802"/>
+      <district name="五原县" rcode="150821"/>
+      <district name="磴口县" rcode="150822"/>
+      <district name="乌拉特前旗" rcode="150823"/>
+      <district name="乌拉特中旗" rcode="150824"/>
+      <district name="乌拉特后旗" rcode="150825"/>
+      <district name="杭锦后旗" rcode="150826"/>
+    </city >
+    <city name="乌兰察布市" ccode="150900">
+      <district name="市辖区" rcode="150901"/>
+      <district name="集宁区" rcode="150902"/>
+      <district name="卓资县" rcode="150921"/>
+      <district name="化德县" rcode="150922"/>
+      <district name="商都县" rcode="150923"/>
+      <district name="兴和县" rcode="150924"/>
+      <district name="凉城县" rcode="150925"/>
+      <district name="察哈尔右翼前旗" rcode="150926"/>
+      <district name="察哈尔右翼中旗" rcode="150927"/>
+      <district name="察哈尔右翼后旗" rcode="150928"/>
+      <district name="四子王旗" rcode="150929"/>
+      <district name="丰镇市" rcode="150981"/>
+    </city >
+    <city name="兴安盟" ccode="152200">
+      <district name="乌兰浩特市" rcode="152201"/>
+      <district name="阿尔山市" rcode="152202"/>
+      <district name="科尔沁右翼前旗" rcode="152221"/>
+      <district name="科尔沁右翼中旗" rcode="152222"/>
+      <district name="扎赉特旗" rcode="152223"/>
+      <district name="突泉县" rcode="152224"/>
+    </city >
+    <city name="锡林郭勒盟" ccode="152500">
+      <district name="二连浩特市" rcode="152501"/>
+      <district name="锡林浩特市" rcode="152502"/>
+      <district name="阿巴嘎旗" rcode="152522"/>
+      <district name="苏尼特左旗" rcode="152523"/>
+      <district name="苏尼特右旗" rcode="152524"/>
+      <district name="东乌珠穆沁旗" rcode="152525"/>
+      <district name="西乌珠穆沁旗" rcode="152526"/>
+      <district name="太仆寺旗" rcode="152527"/>
+      <district name="镶黄旗" rcode="152528"/>
+      <district name="正镶白旗" rcode="152529"/>
+      <district name="正蓝旗" rcode="152530"/>
+      <district name="多伦县" rcode="152531"/>
+    </city >
+    <city name="阿拉善盟" ccode="152900">
+      <district name="阿拉善左旗" rcode="152921"/>
+      <district name="阿拉善右旗" rcode="152922"/>
+      <district name="额济纳旗" rcode="152923"/>
+    </city >
+  </province>
+  <province name="辽宁省" pcode="210000">
+    <city name="沈阳市" ccode="210100">
+      <district name="市辖区" rcode="210101"/>
+      <district name="和平区" rcode="210102"/>
+      <district name="沈河区" rcode="210103"/>
+      <district name="大东区" rcode="210104"/>
+      <district name="皇姑区" rcode="210105"/>
+      <district name="铁西区" rcode="210106"/>
+      <district name="苏家屯区" rcode="210111"/>
+      <district name="东陵区" rcode="210112"/>
+      <district name="新城子区" rcode="210113"/>
+      <district name="于洪区" rcode="210114"/>
+      <district name="辽中县" rcode="210122"/>
+      <district name="康平县" rcode="210123"/>
+      <district name="法库县" rcode="210124"/>
+      <district name="新民市" rcode="210181"/>
+    </city >
+    <city name="大连市" ccode="210200">
+      <district name="市辖区" rcode="210201"/>
+      <district name="中山区" rcode="210202"/>
+      <district name="西岗区" rcode="210203"/>
+      <district name="沙河口区" rcode="210204"/>
+      <district name="甘井子区" rcode="210211"/>
+      <district name="旅顺口区" rcode="210212"/>
+      <district name="金州区" rcode="210213"/>
+      <district name="长海县" rcode="210224"/>
+      <district name="瓦房店市" rcode="210281"/>
+      <district name="普兰店市" rcode="210282"/>
+      <district name="庄河市" rcode="210283"/>
+    </city >
+    <city name="鞍山市" ccode="210300">
+      <district name="市辖区" rcode="210301"/>
+      <district name="铁东区" rcode="210302"/>
+      <district name="铁西区" rcode="210303"/>
+      <district name="立山区" rcode="210304"/>
+      <district name="千山区" rcode="210311"/>
+      <district name="台安县" rcode="210321"/>
+      <district name="岫岩满族自治县" rcode="210323"/>
+      <district name="海城市" rcode="210381"/>
+    </city >
+    <city name="抚顺市" ccode="210400">
+      <district name="市辖区" rcode="210401"/>
+      <district name="新抚区" rcode="210402"/>
+      <district name="东洲区" rcode="210403"/>
+      <district name="望花区" rcode="210404"/>
+      <district name="顺城区" rcode="210411"/>
+      <district name="抚顺县" rcode="210421"/>
+      <district name="新宾满族自治县" rcode="210422"/>
+      <district name="清原满族自治县" rcode="210423"/>
+    </city >
+    <city name="本溪市" ccode="210500">
+      <district name="市辖区" rcode="210501"/>
+      <district name="平山区" rcode="210502"/>
+      <district name="溪湖区" rcode="210503"/>
+      <district name="明山区" rcode="210504"/>
+      <district name="南芬区" rcode="210505"/>
+      <district name="本溪满族自治县" rcode="210521"/>
+      <district name="桓仁满族自治县" rcode="210522"/>
+    </city >
+    <city name="丹东市" ccode="210600">
+      <district name="市辖区" rcode="210601"/>
+      <district name="元宝区" rcode="210602"/>
+      <district name="振兴区" rcode="210603"/>
+      <district name="振安区" rcode="210604"/>
+      <district name="宽甸满族自治县" rcode="210624"/>
+      <district name="东港市" rcode="210681"/>
+      <district name="凤城市" rcode="210682"/>
+    </city >
+    <city name="锦州市" ccode="210700">
+      <district name="市辖区" rcode="210701"/>
+      <district name="古塔区" rcode="210702"/>
+      <district name="凌河区" rcode="210703"/>
+      <district name="太和区" rcode="210711"/>
+      <district name="黑山县" rcode="210726"/>
+      <district name="义县" rcode="210727"/>
+      <district name="凌海市" rcode="210781"/>
+      <district name="北宁市" rcode="210782"/>
+    </city >
+    <city name="营口市" ccode="210800">
+      <district name="市辖区" rcode="210801"/>
+      <district name="站前区" rcode="210802"/>
+      <district name="西市区" rcode="210803"/>
+      <district name="鲅鱼圈区" rcode="210804"/>
+      <district name="老边区" rcode="210811"/>
+      <district name="盖州市" rcode="210881"/>
+      <district name="大石桥市" rcode="210882"/>
+    </city >
+    <city name="阜新市" ccode="210900">
+      <district name="市辖区" rcode="210901"/>
+      <district name="海州区" rcode="210902"/>
+      <district name="新邱区" rcode="210903"/>
+      <district name="太平区" rcode="210904"/>
+      <district name="清河门区" rcode="210905"/>
+      <district name="细河区" rcode="210911"/>
+      <district name="阜新蒙古族自治县" rcode="210921"/>
+      <district name="彰武县" rcode="210922"/>
+    </city >
+    <city name="辽阳市" ccode="211000">
+      <district name="市辖区" rcode="211001"/>
+      <district name="白塔区" rcode="211002"/>
+      <district name="文圣区" rcode="211003"/>
+      <district name="宏伟区" rcode="211004"/>
+      <district name="弓长岭区" rcode="211005"/>
+      <district name="太子河区" rcode="211011"/>
+      <district name="辽阳县" rcode="211021"/>
+      <district name="灯塔市" rcode="211081"/>
+    </city >
+    <city name="盘锦市" ccode="211100">
+      <district name="市辖区" rcode="211101"/>
+      <district name="双台子区" rcode="211102"/>
+      <district name="兴隆台区" rcode="211103"/>
+      <district name="大洼县" rcode="211121"/>
+      <district name="盘山县" rcode="211122"/>
+    </city >
+    <city name="铁岭市" ccode="211200">
+      <district name="市辖区" rcode="211201"/>
+      <district name="银州区" rcode="211202"/>
+      <district name="清河区" rcode="211204"/>
+      <district name="铁岭县" rcode="211221"/>
+      <district name="西丰县" rcode="211223"/>
+      <district name="昌图县" rcode="211224"/>
+      <district name="调兵山市" rcode="211281"/>
+      <district name="开原市" rcode="211282"/>
+    </city >
+    <city name="朝阳市" ccode="211300">
+      <district name="市辖区" rcode="211301"/>
+      <district name="双塔区" rcode="211302"/>
+      <district name="龙城区" rcode="211303"/>
+      <district name="朝阳县" rcode="211321"/>
+      <district name="建平县" rcode="211322"/>
+      <district name="喀喇沁左翼蒙古族自治县" rcode="211324"/>
+      <district name="北票市" rcode="211381"/>
+      <district name="凌源市" rcode="211382"/>
+    </city >
+    <city name="葫芦岛市" ccode="211400">
+      <district name="市辖区" rcode="211401"/>
+      <district name="连山区" rcode="211402"/>
+      <district name="龙港区" rcode="211403"/>
+      <district name="南票区" rcode="211404"/>
+      <district name="绥中县" rcode="211421"/>
+      <district name="建昌县" rcode="211422"/>
+      <district name="兴城市" rcode="211481"/>
+    </city >
+  </province>
+  <province name="吉林省" pcode="220000">
+    <city name="长春市" ccode="220100">
+      <district name="市辖区" rcode="220101"/>
+      <district name="南关区" rcode="220102"/>
+      <district name="宽城区" rcode="220103"/>
+      <district name="朝阳区" rcode="220104"/>
+      <district name="二道区" rcode="220105"/>
+      <district name="绿园区" rcode="220106"/>
+      <district name="双阳区" rcode="220112"/>
+      <district name="农安县" rcode="220122"/>
+      <district name="九台市" rcode="220181"/>
+      <district name="榆树市" rcode="220182"/>
+      <district name="德惠市" rcode="220183"/>
+    </city >
+    <city name="吉林市" ccode="220200">
+      <district name="市辖区" rcode="220201"/>
+      <district name="昌邑区" rcode="220202"/>
+      <district name="龙潭区" rcode="220203"/>
+      <district name="船营区" rcode="220204"/>
+      <district name="丰满区" rcode="220211"/>
+      <district name="永吉县" rcode="220221"/>
+      <district name="蛟河市" rcode="220281"/>
+      <district name="桦甸市" rcode="220282"/>
+      <district name="舒兰市" rcode="220283"/>
+      <district name="磐石市" rcode="220284"/>
+    </city >
+    <city name="四平市" ccode="220300">
+      <district name="市辖区" rcode="220301"/>
+      <district name="铁西区" rcode="220302"/>
+      <district name="铁东区" rcode="220303"/>
+      <district name="梨树县" rcode="220322"/>
+      <district name="伊通满族自治县" rcode="220323"/>
+      <district name="公主岭市" rcode="220381"/>
+      <district name="双辽市" rcode="220382"/>
+    </city >
+    <city name="辽源市" ccode="220400">
+      <district name="市辖区" rcode="220401"/>
+      <district name="龙山区" rcode="220402"/>
+      <district name="西安区" rcode="220403"/>
+      <district name="东丰县" rcode="220421"/>
+      <district name="东辽县" rcode="220422"/>
+    </city >
+    <city name="通化市" ccode="220500">
+      <district name="市辖区" rcode="220501"/>
+      <district name="东昌区" rcode="220502"/>
+      <district name="二道江区" rcode="220503"/>
+      <district name="通化县" rcode="220521"/>
+      <district name="辉南县" rcode="220523"/>
+      <district name="柳河县" rcode="220524"/>
+      <district name="梅河口市" rcode="220581"/>
+      <district name="集安市" rcode="220582"/>
+    </city >
+    <city name="白山市" ccode="220600">
+      <district name="市辖区" rcode="220601"/>
+      <district name="八道江区" rcode="220602"/>
+      <district name="抚松县" rcode="220621"/>
+      <district name="靖宇县" rcode="220622"/>
+      <district name="长白朝鲜族自治县" rcode="220623"/>
+      <district name="江源县" rcode="220625"/>
+      <district name="临江市" rcode="220681"/>
+    </city >
+    <city name="松原市" ccode="220700">
+      <district name="市辖区" rcode="220701"/>
+      <district name="宁江区" rcode="220702"/>
+      <district name="前郭尔罗斯蒙古族自治县" rcode="220721"/>
+      <district name="长岭县" rcode="220722"/>
+      <district name="乾安县" rcode="220723"/>
+      <district name="扶余县" rcode="220724"/>
+    </city >
+    <city name="白城市" ccode="220800">
+      <district name="市辖区" rcode="220801"/>
+      <district name="洮北区" rcode="220802"/>
+      <district name="镇赉县" rcode="220821"/>
+      <district name="通榆县" rcode="220822"/>
+      <district name="洮南市" rcode="220881"/>
+      <district name="大安市" rcode="220882"/>
+    </city >
+    <city name="延边朝鲜族自治州" ccode="222400">
+      <district name="延吉市" rcode="222401"/>
+      <district name="图们市" rcode="222402"/>
+      <district name="敦化市" rcode="222403"/>
+      <district name="珲春市" rcode="222404"/>
+      <district name="龙井市" rcode="222405"/>
+      <district name="和龙市" rcode="222406"/>
+      <district name="汪清县" rcode="222424"/>
+      <district name="安图县" rcode="222426"/>
+    </city >
+  </province>
+  <province name="黑龙江" pcode="230000">
+    <city name="哈尔滨市" ccode="230100">
+      <district name="市辖区" rcode="230101"/>
+      <district name="道里区" rcode="230102"/>
+      <district name="南岗区" rcode="230103"/>
+      <district name="道外区" rcode="230104"/>
+      <district name="香坊区" rcode="230106"/>
+      <district name="动力区" rcode="230107"/>
+      <district name="平房区" rcode="230108"/>
+      <district name="松北区" rcode="230109"/>
+      <district name="呼兰区" rcode="230111"/>
+      <district name="依兰县" rcode="230123"/>
+      <district name="方正县" rcode="230124"/>
+      <district name="宾县" rcode="230125"/>
+      <district name="巴彦县" rcode="230126"/>
+      <district name="木兰县" rcode="230127"/>
+      <district name="通河县" rcode="230128"/>
+      <district name="延寿县" rcode="230129"/>
+      <district name="阿城市" rcode="230181"/>
+      <district name="双城市" rcode="230182"/>
+      <district name="尚志市" rcode="230183"/>
+      <district name="五常市" rcode="230184"/>
+    </city >
+    <city name="齐齐哈尔市" ccode="230200">
+      <district name="市辖区" rcode="230201"/>
+      <district name="龙沙区" rcode="230202"/>
+      <district name="建华区" rcode="230203"/>
+      <district name="铁锋区" rcode="230204"/>
+      <district name="昂昂溪区" rcode="230205"/>
+      <district name="富拉尔基区" rcode="230206"/>
+      <district name="碾子山区" rcode="230207"/>
+      <district name="梅里斯达斡尔族区" rcode="230208"/>
+      <district name="龙江县" rcode="230221"/>
+      <district name="依安县" rcode="230223"/>
+      <district name="泰来县" rcode="230224"/>
+      <district name="甘南县" rcode="230225"/>
+      <district name="富裕县" rcode="230227"/>
+      <district name="克山县" rcode="230229"/>
+      <district name="克东县" rcode="230230"/>
+      <district name="拜泉县" rcode="230231"/>
+      <district name="讷河市" rcode="230281"/>
+    </city >
+    <city name="鸡西市" ccode="230300">
+      <district name="市辖区" rcode="230301"/>
+      <district name="鸡冠区" rcode="230302"/>
+      <district name="恒山区" rcode="230303"/>
+      <district name="滴道区" rcode="230304"/>
+      <district name="梨树区" rcode="230305"/>
+      <district name="城子河区" rcode="230306"/>
+      <district name="麻山区" rcode="230307"/>
+      <district name="鸡东县" rcode="230321"/>
+      <district name="虎林市" rcode="230381"/>
+      <district name="密山市" rcode="230382"/>
+    </city >
+    <city name="鹤岗市" ccode="230400">
+      <district name="市辖区" rcode="230401"/>
+      <district name="向阳区" rcode="230402"/>
+      <district name="工农区" rcode="230403"/>
+      <district name="南山区" rcode="230404"/>
+      <district name="兴安区" rcode="230405"/>
+      <district name="东山区" rcode="230406"/>
+      <district name="兴山区" rcode="230407"/>
+      <district name="萝北县" rcode="230421"/>
+      <district name="绥滨县" rcode="230422"/>
+    </city >
+    <city name="双鸭山市" ccode="230500">
+      <district name="市辖区" rcode="230501"/>
+      <district name="尖山区" rcode="230502"/>
+      <district name="岭东区" rcode="230503"/>
+      <district name="四方台区" rcode="230505"/>
+      <district name="宝山区" rcode="230506"/>
+      <district name="集贤县" rcode="230521"/>
+      <district name="友谊县" rcode="230522"/>
+      <district name="宝清县" rcode="230523"/>
+      <district name="饶河县" rcode="230524"/>
+    </city >
+    <city name="大庆市" ccode="230600">
+      <district name="市辖区" rcode="230601"/>
+      <district name="萨尔图区" rcode="230602"/>
+      <district name="龙凤区" rcode="230603"/>
+      <district name="让胡路区" rcode="230604"/>
+      <district name="红岗区" rcode="230605"/>
+      <district name="大同区" rcode="230606"/>
+      <district name="肇州县" rcode="230621"/>
+      <district name="肇源县" rcode="230622"/>
+      <district name="林甸县" rcode="230623"/>
+      <district name="杜尔伯特蒙古族自治县" rcode="230624"/>
+    </city >
+    <city name="伊春市" ccode="230700">
+      <district name="市辖区" rcode="230701"/>
+      <district name="伊春区" rcode="230702"/>
+      <district name="南岔区" rcode="230703"/>
+      <district name="友好区" rcode="230704"/>
+      <district name="西林区" rcode="230705"/>
+      <district name="翠峦区" rcode="230706"/>
+      <district name="新青区" rcode="230707"/>
+      <district name="美溪区" rcode="230708"/>
+      <district name="金山屯区" rcode="230709"/>
+      <district name="五营区" rcode="230710"/>
+      <district name="乌马河区" rcode="230711"/>
+      <district name="汤旺河区" rcode="230712"/>
+      <district name="带岭区" rcode="230713"/>
+      <district name="乌伊岭区" rcode="230714"/>
+      <district name="红星区" rcode="230715"/>
+      <district name="上甘岭区" rcode="230716"/>
+      <district name="嘉荫县" rcode="230722"/>
+      <district name="铁力市" rcode="230781"/>
+    </city >
+    <city name="佳木斯市" ccode="230800">
+      <district name="市辖区" rcode="230801"/>
+      <district name="永红区" rcode="230802"/>
+      <district name="向阳区" rcode="230803"/>
+      <district name="前进区" rcode="230804"/>
+      <district name="东风区" rcode="230805"/>
+      <district name="郊区" rcode="230811"/>
+      <district name="桦南县" rcode="230822"/>
+      <district name="桦川县" rcode="230826"/>
+      <district name="汤原县" rcode="230828"/>
+      <district name="抚远县" rcode="230833"/>
+      <district name="同江市" rcode="230881"/>
+      <district name="富锦市" rcode="230882"/>
+    </city >
+    <city name="七台河市" ccode="230900">
+      <district name="市辖区" rcode="230901"/>
+      <district name="新兴区" rcode="230902"/>
+      <district name="桃山区" rcode="230903"/>
+      <district name="茄子河区" rcode="230904"/>
+      <district name="勃利县" rcode="230921"/>
+    </city >
+    <city name="牡丹江市" ccode="231000">
+      <district name="市辖区" rcode="231001"/>
+      <district name="东安区" rcode="231002"/>
+      <district name="阳明区" rcode="231003"/>
+      <district name="爱民区" rcode="231004"/>
+      <district name="西安区" rcode="231005"/>
+      <district name="东宁县" rcode="231024"/>
+      <district name="林口县" rcode="231025"/>
+      <district name="绥芬河市" rcode="231081"/>
+      <district name="海林市" rcode="231083"/>
+      <district name="宁安市" rcode="231084"/>
+      <district name="穆棱市" rcode="231085"/>
+    </city >
+    <city name="黑河市" ccode="231100">
+      <district name="市辖区" rcode="231101"/>
+      <district name="爱辉区" rcode="231102"/>
+      <district name="嫩江县" rcode="231121"/>
+      <district name="逊克县" rcode="231123"/>
+      <district name="孙吴县" rcode="231124"/>
+      <district name="北安市" rcode="231181"/>
+      <district name="五大连池市" rcode="231182"/>
+    </city >
+    <city name="绥化市" ccode="231200">
+      <district name="市辖区" rcode="231201"/>
+      <district name="北林区" rcode="231202"/>
+      <district name="望奎县" rcode="231221"/>
+      <district name="兰西县" rcode="231222"/>
+      <district name="青冈县" rcode="231223"/>
+      <district name="庆安县" rcode="231224"/>
+      <district name="明水县" rcode="231225"/>
+      <district name="绥棱县" rcode="231226"/>
+      <district name="安达市" rcode="231281"/>
+      <district name="肇东市" rcode="231282"/>
+      <district name="海伦市" rcode="231283"/>
+    </city >
+    <city name="大兴安岭地区" ccode="232700">
+      <district name="呼玛县" rcode="232721"/>
+      <district name="塔河县" rcode="232722"/>
+      <district name="漠河县" rcode="232723"/>
+    </city >
+  </province>
+  <province name="上海市" pcode="310000">
+    <city name="上海市" ccode="310100">
+      <district name="黄浦区" rcode="310101"/>
+      <district name="卢湾区" rcode="310103"/>
+      <district name="徐汇区" rcode="310104"/>
+      <district name="长宁区" rcode="310105"/>
+      <district name="静安区" rcode="310106"/>
+      <district name="普陀区" rcode="310107"/>
+      <district name="闸北区" rcode="310108"/>
+      <district name="虹口区" rcode="310109"/>
+      <district name="杨浦区" rcode="310110"/>
+      <district name="闵行区" rcode="310112"/>
+      <district name="宝山区" rcode="310113"/>
+      <district name="嘉定区" rcode="310114"/>
+      <district name="浦东新区" rcode="310115"/>
+      <district name="金山区" rcode="310116"/>
+      <district name="松江区" rcode="310117"/>
+      <district name="青浦区" rcode="310118"/>
+      <district name="南汇区" rcode="310119"/>
+      <district name="奉贤区" rcode="310120"/>
+    </city >
+  </province>
+
+</root>

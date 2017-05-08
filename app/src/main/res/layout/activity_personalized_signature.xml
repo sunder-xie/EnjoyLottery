@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_hui">
+
+    <include layout="@layout/top_quan"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="3dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/nickname_edittext"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:gravity="bottom"
+            android:textSize="14sp"
+            android:textColor="@color/chunblack"/>
+
+        <TextView
+            android:id="@+id/shengyu_count"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:textSize="13sp"
+            android:textColor="@color/edithui"
+            android:text="30"
+            android:gravity="bottom"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/lvse"/>
+
+</LinearLayout>
