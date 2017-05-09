@@ -28,12 +28,12 @@
 
     <TextView
         android:id="@+id/every_top_right"
-        android:layout_width="60dp"
-        android:layout_height="28dp"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
         android:gravity="center"
         android:layout_centerVertical="true"
         android:layout_alignParentRight="true"
-        android:layout_marginRight="10dp"
+        android:layout_marginRight="8dp"
         android:textSize="15sp"
         android:textColor="@color/title_text_color"/>
 

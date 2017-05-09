@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_hui"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_quan"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/creat_group_jibenxinxi"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="基本信息"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:background="@color/zitilv"
+            android:textColor="@color/background_white"/>
+
+        <TextView
+            android:id="@+id/creat_group_gongnengpeizhi"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="功能配置"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:background="@color/heihui"
+            android:textColor="@color/background_white"/>
+
+        <TextView
+            android:id="@+id/creat_group_wanchengtijiao"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="完成提交"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:background="@color/heihui"
+            android:textColor="@color/background_white"/>
+    </LinearLayout>
+
+    <com.example.administrator.enjoylottery.view.NoScrollViewPager
+        android:id="@+id/creat_group_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/creat_group_xiayibu"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/xiayibuhui"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="下一步"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/background_white"
+        android:textSize="20sp" />
+</LinearLayout>
