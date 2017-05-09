@@ -39,7 +39,7 @@ public class ChartFragment extends BaseFragment implements View.OnClickListener{
     }
 
     private void initView() {
-        ((TextView) view.findViewById(R.id.every_top_text)).setText("聊 天");
+        ((TextView)  view.findViewById(R.id.every_top_text)).setText("聊 天");
         chartList = (ListView) view.findViewById(R.id.group_chart_list);
         add = (TextView) view.findViewById(every_top_right);
         add.setText("+");
