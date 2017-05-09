@@ -27,7 +27,8 @@ public class OKhttpHelper {
     private static final String map = "http://api.map.baidu.com/geocoder?";
     //public static final String DOMAIN = "http://192.168.1.126/webappProject/";
     public static final String DOMAIN = "http://36.7.190.20:1881/webappProject/";
-
+    //球号
+    private static final String GET_BALL = DOMAIN+"outer/getLotteryList?id=4028b8815b13e2bb015b13fad49a0001";
     //获取省份对应的玩法数据
     private static final String GET_PLAY_TYPE = DOMAIN + "outer/getLotteryPlayListOfProvince?";
     //获取切换省份的有效省份
@@ -48,6 +49,7 @@ public class OKhttpHelper {
     private static final String GET_HAVE_LOTTERY = DOMAIN + "outerLotteryStation/getLotteryStaionOfRenzheng?";
     //创建群
     private static final String ESDABLISH_GROUP = DOMAIN + "createGroup?";
+
     public static OKhttpHelper getInstance() {
         if (instance == null) {
             instance = new OKhttpHelper();
@@ -248,6 +250,21 @@ public class OKhttpHelper {
             String objects = OKhttpHelper.getInstance().get(ESDABLISH_GROUP, object.toString());
             JSONTokener jsonTokener = new JSONTokener(objects);
             JSONObject result = (JSONObject) jsonTokener.nextValue();
+            return result + "";
+        } catch (JSONException e) {
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+
+    //获取球
+    public String get11f5Ball() {
+        try {
+            String json = OKhttpHelper.getInstance().get(GET_BALL,"{}");
+            JSONTokener jsonTokener = new JSONTokener(json);
+            JSONArray result = (JSONArray) jsonTokener.nextValue();
             return result + "";
         } catch (JSONException e) {
         } catch (IOException e) {
