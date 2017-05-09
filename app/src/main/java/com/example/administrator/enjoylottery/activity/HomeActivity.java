@@ -8,6 +8,7 @@ import android.os.Handler;
 import android.os.Message;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
+import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
@@ -17,6 +18,7 @@ import com.baidu.location.LocationClient;
 import com.baidu.location.LocationClientOption;
 import com.example.administrator.enjoylottery.R;
 import com.example.administrator.enjoylottery.adapter.MyFragmentPagerAdapter;
+import com.example.administrator.enjoylottery.bean.BallBean;
 import com.example.administrator.enjoylottery.bean.ProvincePlayBean;
 import com.example.administrator.enjoylottery.fragment.ChartFragment;
 import com.example.administrator.enjoylottery.fragment.FaxianFragment;
@@ -25,6 +27,7 @@ import com.example.administrator.enjoylottery.fragment.MeFragment;
 import com.example.administrator.enjoylottery.fragment.MeFragmentTwo;
 import com.example.administrator.enjoylottery.model.Info;
 import com.example.administrator.enjoylottery.presenters.OKhttpHelper;
+import com.example.administrator.enjoylottery.service.MapApplication;
 import com.example.administrator.enjoylottery.tools.SharedPreferencesUtils;
 import com.example.administrator.enjoylottery.view.WeiboDialogUtils;
 import com.google.gson.Gson;
@@ -57,6 +60,7 @@ public class HomeActivity extends BaseActivity {
         setContentView(R.layout.activity_home);
         initView();
         mWeiboDialog = WeiboDialogUtils.createLoadingDialog(HomeActivity.this, "加载中...");
+        new GetBall().execute();
     }
 
     Handler handler = new Handler() {
@@ -200,5 +204,19 @@ public class HomeActivity extends BaseActivity {
     public void changeFragment() {
         list.add(3, new MeFragment());
         adapter.notifyDataSetChanged();
+    }
+    class GetBall extends AsyncTask<Void,Void,String>{
+        @Override
+        protected String doInBackground(Void... params) {
+            return OKhttpHelper.getInstance().get11f5Ball();
+        }
+        @Override
+        protected void onPostExecute(String s) {
+            Log.e("TAG",s);
+            BallBean ballBean = new BallBean();
+            Gson gson = new Gson();
+            List<BallBean> list = gson.fromJson(s,new TypeToken<ArrayList<BallBean>>(){}.getType());
+            MapApplication.getInstence().setList(list);
+        }
     }
 }
