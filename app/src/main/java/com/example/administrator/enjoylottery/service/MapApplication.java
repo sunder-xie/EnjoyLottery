@@ -4,6 +4,10 @@ import android.app.Application;
 import android.util.Log;
 
 import com.baidu.mapapi.SDKInitializer;
+import com.example.administrator.enjoylottery.bean.BallBean;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import cn.jpush.android.api.JPushInterface;
 import io.rong.imageloader.core.ImageLoader;
@@ -15,11 +19,26 @@ import io.rong.imkit.RongIM;
  */
 
 public class MapApplication extends Application {
+    private static MapApplication myApplication = null;
     private static final String TAG = "JPush";
+    public static MapApplication getInstence() {
+           return myApplication;
+          }
+
+    public List<BallBean> getList() {
+        return list;
+    }
+
+    public void setList(List<BallBean> list) {
+        this.list = list;
+    }
+
+    List<BallBean> list = new ArrayList<>();
     @Override
     public void onCreate() {
         Log.d(TAG, "[ExampleApplication] onCreate");
         super.onCreate();
+        myApplication = this;
         SDKInitializer.initialize(this);
         RongIM.init(this);
         ImageLoader.getInstance().init(ImageLoaderConfiguration.createDefault(getApplicationContext()));
@@ -36,5 +55,8 @@ public class MapApplication extends Application {
 //            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 //            startActivity(intent);
 //        }
+
     }
+
+
 }
