@@ -1,26 +1,22 @@
 package com.example.administrator.enjoylottery.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Color;
-import android.graphics.drawable.Drawable;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.BaseAdapter;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.example.administrator.enjoylottery.R;
-import com.example.administrator.enjoylottery.activity.ZoushituHomeActivity;
+import com.example.administrator.enjoylottery.activity.ViewActivity;
 import com.example.administrator.enjoylottery.bean.ElevenFivePictureBean;
 import com.example.administrator.enjoylottery.listener.CheckMuban;
 import com.example.administrator.enjoylottery.listener.ItemTouchHelperAdapter;
 import com.example.administrator.enjoylottery.listener.ItemTouchHelperViewHolder;
-import com.example.administrator.enjoylottery.listener.OnStartDragListener;
-import com.example.administrator.enjoylottery.model.Number;
 
 import java.util.Collections;
 import java.util.List;
@@ -54,6 +50,12 @@ public class ChangyongZoushiAdapter extends RecyclerView.Adapter<ChangyongZoushi
     @Override
     public void onBindViewHolder(final ChangyongZoushiAdapter.ViewHolder holder, int position) {
         holder.imageView.setImageResource(list.get(position).getPicture());
+        holder.imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+            context.startActivity(new Intent(context, ViewActivity.class));
+            }
+        });
         holder.textView.setText(list.get(position).getName());
         holder.check.setText("-");
         holder.check.setTag(position);

@@ -34,6 +34,7 @@ import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 import io.github.leibnik.wechatradiobar.WechatRadioButton;
@@ -160,17 +161,17 @@ public class HomeActivity extends BaseActivity {
                 }.getType());
 
                 if (1 == (Integer) (SharedPreferencesUtils.getParam(HomeActivity.this, "firstLogin", 2))) {
-                        meFragment = new MeFragmentTwo();
-                        chartFragment = new ChartFragment();
-                        gongjuFragment = new GongjuFragment(lists);
-                        faxianFragment = new FaxianFragment();
-                        list.add(chartFragment);
-                        list.add(gongjuFragment);
-                        list.add(faxianFragment);
-                        list.add(meFragment);
-                        initEvent();
-                        WeiboDialogUtils.closeDialog(mWeiboDialog);
-                        return;
+                    meFragment = new MeFragmentTwo();
+                    chartFragment = new ChartFragment();
+                    gongjuFragment = new GongjuFragment(lists);
+                    faxianFragment = new FaxianFragment();
+                    list.add(chartFragment);
+                    list.add(gongjuFragment);
+                    list.add(faxianFragment);
+                    list.add(meFragment);
+                    initEvent();
+                    WeiboDialogUtils.closeDialog(mWeiboDialog);
+                    return;
                 }
 
                 if (a == 0) {
@@ -205,17 +206,23 @@ public class HomeActivity extends BaseActivity {
         list.add(3, new MeFragment());
         adapter.notifyDataSetChanged();
     }
-    class GetBall extends AsyncTask<Void,Void,String>{
+
+    class GetBall extends AsyncTask<Void, Void, String> {
         @Override
         protected String doInBackground(Void... params) {
             return OKhttpHelper.getInstance().get11f5Ball();
         }
+
         @Override
         protected void onPostExecute(String s) {
-            Log.e("TAG",s);
+            Log.e("TAG", s);
             BallBean ballBean = new BallBean();
             Gson gson = new Gson();
-            List<BallBean> list = gson.fromJson(s,new TypeToken<ArrayList<BallBean>>(){}.getType());
+            List<BallBean> list = gson.fromJson(s, new TypeToken<ArrayList<BallBean>>() {
+            }.getType());
+            Collections.reverse(list);
+            ballBean.setIssueNumber(Integer.parseInt(list.get(list.size() - 1).getIssueNumber()) + 1 + "");
+            list.add(ballBean);
             MapApplication.getInstence().setList(list);
         }
     }

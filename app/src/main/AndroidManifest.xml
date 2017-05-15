@@ -97,6 +97,7 @@
         <activity android:name=".activity.NewAddRegionActivity"/>
         <activity android:name=".activity.ModifyPasswordActivity"/>
         <activity android:name=".activity.CreatGroupActivity"/>
+        <activity android:name=".activity.ViewActivity"/>
 
         <!-- Required SDK核心功能-->
         <activity

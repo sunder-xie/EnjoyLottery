@@ -209,7 +209,6 @@ public class ZoushituHomeActivity extends BaseActivity {
     private void initEvent() {
         changyongAdapter = new ChangyongZoushiAdapter(this, listShang, checkMuban);
         changYongRecycler.setAdapter(changyongAdapter);
-
         changyongXiaAdapter = new ChangyongXiaAdapter(this, listXia, checkMuban);
         moreRecycler.setAdapter(changyongXiaAdapter);
 

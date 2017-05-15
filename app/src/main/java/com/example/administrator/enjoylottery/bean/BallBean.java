@@ -5,6 +5,7 @@ package com.example.administrator.enjoylottery.bean;
  */
 
 public class BallBean {
+
     /**
      * id : 25220
      * issueNumber : 17041734

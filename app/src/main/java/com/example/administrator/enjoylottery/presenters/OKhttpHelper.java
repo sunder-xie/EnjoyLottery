@@ -25,8 +25,8 @@ public class OKhttpHelper {
     private int result;
 
     private static final String map = "http://api.map.baidu.com/geocoder?";
-    //public static final String DOMAIN = "http://192.168.1.126/webappProject/";
-    public static final String DOMAIN = "http://36.7.190.20:1881/webappProject/";
+    public static final String DOMAIN = "http://192.168.1.126/webappProject/";
+//    public static final String DOMAIN = "http://36.7.190.20:1881/webappProject/";
     //球号
     private static final String GET_BALL = DOMAIN+"outer/getLotteryList?id=4028b8815b13e2bb015b13fad49a0001";
     //获取省份对应的玩法数据
