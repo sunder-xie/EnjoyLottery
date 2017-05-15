@@ -85,7 +85,6 @@ public class ZoushituHomeActivity extends BaseActivity {
                     logs = "失败代码 = " + code;
                     Log.e(TAG, logs);
             }
-
             ExampleUtil.showToast(logs, getApplicationContext());
         }
 

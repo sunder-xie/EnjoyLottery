@@ -5,7 +5,6 @@ import android.util.Log;
 
 import com.baidu.mapapi.SDKInitializer;
 import com.example.administrator.enjoylottery.bean.BallBean;
-import com.example.administrator.enjoylottery.tools.BitMapManager;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -42,6 +41,12 @@ public class MapApplication extends Application {
         //初始化bitmap工具类- 根据num 返回对应bitmap
         setBitMapManager(new BitMapManager(getApplicationContext()));
 
+        JPushInterface.setDebugMode(true); 	// 设置开启日志,发布时请关闭日志
+        JPushInterface.init(this);     		// 初始化 JPush
+        if (!SharedPreferencesUtils.getParam(getApplicationContext(),"token","").equals("")) {
+            connectRong((String)SharedPreferencesUtils.getParam(getApplicationContext(),"token",""));
+        }
+
     }
 
     public BitMapManager getBitmapTools() {
@@ -50,6 +55,24 @@ public class MapApplication extends Application {
 
     public void setBitMapManager(BitMapManager bitMapManager) {
         this.bitMapManager = bitMapManager;
+    }
+    public void connectRong(String token){
+        RongIM.connect(token, new RongIMClient.ConnectCallback() {
+                    @Override
+                    public void onTokenIncorrect() {
+                        Log.e("rongyun","onTokenIncorrect");
+                    }
+
+                    @Override
+                    public void onSuccess(String s) {
+                        Log.e("rongyun","onSuccess");
+                    }
+
+                    @Override
+                    public void onError(RongIMClient.ErrorCode errorCode) {
+                        Log.e("rongyun","onError");
+                    }
+                });
     }
 
 

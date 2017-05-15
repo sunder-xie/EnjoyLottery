@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.administrator.enjoylottery"
     android:versionCode="100"
     android:versionName="1.0.0">
@@ -24,7 +23,7 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <!-- 获取机型信息权限 -->
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.GET_TASKS" />
@@ -35,6 +34,7 @@
     <!-- 查看网络状态 -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.CAMERA" />
+
     <uses-feature android:name="android.hardware.camera" />
     <uses-feature android:name="android.hardware.camera.autofocus" />
     <!-- 录音 -->
@@ -50,8 +50,8 @@
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-    <uses-permission android:name="android.permission.CALL_PHONE"/>
-    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
     <application
         android:name=".service.MapApplication"
@@ -59,12 +59,27 @@
         android:icon="@drawable/icon"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
+
         <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
             android:value="PB7iPifS42zSLLYHEGiTxRAyqSWwsQXe" />
 
-        <meta-data android:name="JPUSH_CHANNEL" android:value="developer-default"/>
-        <meta-data android:name="JPUSH_APPKEY" android:value="8e05860e3bed7d7dba91824e" />
+        <meta-data
+            android:name="JPUSH_CHANNEL"
+            android:value="developer-default" />
+        <meta-data
+            android:name="JPUSH_APPKEY"
+            android:value="8e05860e3bed7d7dba91824e" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.example.administrator.enjoylottery.FileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/rc_file_path" />
+        </provider>
 
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -78,45 +93,65 @@
         <activity android:name=".activity.CaiminRegistrationActivity" />
         <activity android:name=".activity.CaizhanRegistrationActivity" />
         <activity android:name=".activity.MapBiaojiActivity" />
-        <activity android:name=".activity.ZhengjianRenzhengActivity"/>
-        <activity android:name=".activity.ZhanghuZhuceActivity"/>
-        <activity android:name=".activity.ZoushituHomeActivity"/>
-        <activity android:name=".activity.FindBackPwdActivity"/>
-        <activity android:name=".activity.SetUpActivity"/>
-        <activity android:name=".activity.GroupCardActivity"/>
-        <activity android:name=".activity.WalletActivity"/>
-        <activity android:name=".activity.HelpActivity"/>
-        <activity android:name=".activity.LotterySiteAuthenticationActivity"/>
-        <activity android:name=".activity.GroupCardBuyPageActivity"/>
-        <activity android:name=".activity.PersonalInformationActivity"/>
-        <activity android:name=".activity.HeadActivity"/>
-        <activity android:name=".activity.ChangeNameActivity"/>
-        <activity android:name=".activity.LotteryChatNumberActivity"/>
-        <activity android:name=".activity.PersonalizedSignatureActivity"/>
-        <activity android:name=".activity.RegionActivity"/>
-        <activity android:name=".activity.NewAddRegionActivity"/>
-        <activity android:name=".activity.ModifyPasswordActivity"/>
-        <activity android:name=".activity.CreatGroupActivity"/>
-        <activity android:name=".activity.ViewActivity"/>
+        <activity android:name=".activity.ZhengjianRenzhengActivity" />
+        <activity android:name=".activity.ZhanghuZhuceActivity" />
+        <activity android:name=".activity.ZoushituHomeActivity" />
+        <activity android:name=".activity.FindBackPwdActivity" />
+        <activity android:name=".activity.SetUpActivity" />
+        <activity android:name=".activity.GroupCardActivity" />
+        <activity android:name=".activity.WalletActivity" />
+        <activity android:name=".activity.HelpActivity" />
+        <activity android:name=".activity.LotterySiteAuthenticationActivity" />
+        <activity android:name=".activity.GroupCardBuyPageActivity" />
+        <activity android:name=".activity.PersonalInformationActivity" />
+        <activity android:name=".activity.HeadActivity" />
+        <activity android:name=".activity.ChangeNameActivity" />
+        <activity android:name=".activity.LotteryChatNumberActivity" />
+        <activity android:name=".activity.PersonalizedSignatureActivity" />
+        <activity android:name=".activity.RegionActivity" />
+        <activity android:name=".activity.NewAddRegionActivity" />
+        <activity android:name=".activity.ModifyPasswordActivity" />
+        <activity android:name=".activity.CreatGroupActivity" />
+        <activity android:name=".activity.SearchGroupActivity" />
+        <activity android:name=".activity.MyNewsActivity" />
+
+        <!--会话界面-->
+        <activity
+            android:name=".activity.ConversationActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="com.example.administrator.enjoylottery"
+                    android:pathPrefix="/conversation/"
+                    android:scheme="rong" />
+            </intent-filter>
+        </activity>
 
         <!-- Required SDK核心功能-->
         <activity
             android:name="cn.jpush.android.ui.PushActivity"
             android:configChanges="orientation|keyboardHidden"
-            android:theme="@android:style/Theme.NoTitleBar"
-            android:exported="false">
+            android:exported="false"
+            android:theme="@android:style/Theme.NoTitleBar">
             <intent-filter>
                 <action android:name="cn.jpush.android.ui.PushActivity" />
+
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="com.example.administrator.enjoylottery" />
             </intent-filter>
         </activity>
+
         <!-- Required  SDK核心功能-->
         <service
             android:name="cn.jpush.android.service.DownloadService"
             android:enabled="true"
-            android:exported="false" >
-        </service>
+            android:exported="false" />
 
         <!-- Required SDK 核心功能-->
         <!-- 可配置android:process参数将PushService放在其他进程中 -->
@@ -132,28 +167,44 @@
         </service>
 
         <!-- Required SDK核心功能-->
-        <receiver android:name="cn.jpush.android.service.AlarmReceiver" android:exported="false"/>
+        <receiver
+            android:name="cn.jpush.android.service.AlarmReceiver"
+            android:exported="false" />
 
         <!-- User defined.  For test only  用户自定义的广播接收器-->
         <receiver
             android:name=".broadcastReceiver.MyJPushReceiver"
-            android:exported="false"
-            android:enabled="true">
+            android:enabled="true"
+            android:exported="false">
             <intent-filter>
                 <action android:name="cn.jpush.android.intent.REGISTRATION" /><!--Required  用户注册SDK的intent-->
-                <action android:name="cn.jpush.android.intent.UNREGISTRATION"/>
+                <action android:name="cn.jpush.android.intent.UNREGISTRATION" />
                 <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" /> <!--Required  用户接收SDK消息的intent-->
                 <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" /> <!--Required  用户接收SDK通知栏信息的intent-->
                 <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" /> <!--Required  用户打开自定义通知栏的intent-->
                 <action android:name="cn.jpush.android.intent.CONNECTION" /><!-- 接收网络变化 连接/断开 since 1.6.3 -->
-                <action android:name="cn.jpush.android.intent.CONNECTION"/> <!--接收网络连接和断开-->
+                <action android:name="cn.jpush.android.intent.CONNECTION" /> <!--接收网络连接和断开-->
                 <category android:name="com.example.administrator.enjoylottery" />
             </intent-filter>
         </receiver>
+
         <service
             android:name="com.baidu.location.f"
             android:enabled="true"
-            android:process=":remote" >
-        </service>
+            android:process=":remote" />
+
+        <!-- 融云`  SDK核心功能-->
+        <service
+            android:name="io.rong.imlib.ipc.RongService"
+            android:exported="true"
+            android:process=":ipc" />
+        <service android:name="io.rong.imlib.ReConnectService" />
+
+        <receiver android:name="io.rong.imlib.ConnectChangeReceiver" />
+
+        <receiver
+            android:name="io.rong.imlib.HeartbeatReceiver"
+            android:process=":ipc" />
+
     </application>
 </manifest>

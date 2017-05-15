@@ -19,6 +19,7 @@ import android.widget.Toast;
 import com.example.administrator.enjoylottery.R;
 import com.example.administrator.enjoylottery.bean.LoginBean;
 import com.example.administrator.enjoylottery.presenters.OKhttpHelper;
+import com.example.administrator.enjoylottery.service.MapApplication;
 import com.example.administrator.enjoylottery.tools.SharedPreferencesUtils;
 import com.example.administrator.enjoylottery.view.WeiboDialogUtils;
 import com.google.gson.Gson;
@@ -220,6 +221,8 @@ public class LoginActivity extends BaseActivity implements TextWatcher {
             Gson gson = new Gson();
             LoginBean bean = gson.fromJson(s, LoginBean.class);
             String id = bean.getUserDto().getId();
+            String token = bean.getUserDto().getToken();
+            String nick = bean.getUserDto().getName();
             String sex = (String) bean.getUserDto().getSex();
             sex = null != sex ? sex : "";
             String signature = (String) bean.getUserDto().getSignature();
@@ -235,6 +238,9 @@ public class LoginActivity extends BaseActivity implements TextWatcher {
             SharedPreferencesUtils.setParam(LoginActivity.this, "firstLogin", 1);
             SharedPreferencesUtils.setParam(LoginActivity.this, "sex", sex);
             SharedPreferencesUtils.setParam(LoginActivity.this, "signature", signature);
+            SharedPreferencesUtils.setParam(LoginActivity.this, "token", token);
+            SharedPreferencesUtils.setParam(LoginActivity.this, "nick", nick);
+            MapApplication.getInstence().connectRong(token);
             finish();
         }
     }

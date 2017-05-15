@@ -1,19 +1,36 @@
 package com.example.administrator.enjoylottery.activity;
 
+import android.app.Dialog;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.administrator.enjoylottery.R;
+import com.example.administrator.enjoylottery.bean.CreatGroupBean;
 import com.example.administrator.enjoylottery.fragment.CompleteSubmissionFragment;
 import com.example.administrator.enjoylottery.fragment.EssentialInformationFragment;
 import com.example.administrator.enjoylottery.fragment.FuntionConfigurationFragment;
+import com.example.administrator.enjoylottery.presenters.OKhttpHelper;
+import com.example.administrator.enjoylottery.tools.SharedPreferencesUtils;
 import com.example.administrator.enjoylottery.view.NoScrollViewPager;
+import com.example.administrator.enjoylottery.view.WeiboDialogUtils;
+import com.google.gson.Gson;
+import com.loopj.android.http.AsyncHttpClient;
+import com.loopj.android.http.AsyncHttpResponseHandler;
+import com.loopj.android.http.RequestParams;
 
+import org.apache.http.Header;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -22,12 +39,34 @@ import java.util.List;
  */
 
 public class CreatGroupActivity extends BaseActivity {
-    private TextView cancel,information,funtion,finish,commit;
+    private TextView cancel, information, funtion, finish, commit;
     private NoScrollViewPager viewPager;
     private List<Fragment> list = new ArrayList<>();
-    private Fragment informationFg,funtionFg,finishFg;
+    private Fragment informationFg, funtionFg, finishFg;
     private FragmentPagerAdapter adapter;
     private int nowPager = 0;
+    private static CreatGroupActivity activity;
+    private Dialog mWeiboDialog;
+    public CreatGroupBean bean = null;
+
+    Handler handler = new Handler(){
+        @Override
+        public void handleMessage(Message msg) {
+            super.handleMessage(msg);
+            switch (msg.what){
+                case 1:
+                    WeiboDialogUtils.closeDialog(mWeiboDialog);
+                    viewPager.setCurrentItem(2);
+                    ((CompleteSubmissionFragment)finishFg).setGroupInformation();
+                    showToastShort("建群成功");
+                    break;
+                case 2:
+                    WeiboDialogUtils.closeDialog(mWeiboDialog);
+                    showToastShort("建群失败");
+                    break;
+            }
+        }
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,10 +75,10 @@ public class CreatGroupActivity extends BaseActivity {
         initView();
         initEvent();
         setViewPager();
-  }
+    }
 
-    private void initView(){
-        ((TextView)findViewById(R.id.every_top_text)).setText("建 群");
+    private void initView() {
+        ((TextView) findViewById(R.id.every_top_text)).setText("建 群");
         cancel = (TextView) findViewById(R.id.every_top_right);
         cancel.setText("取消");
         viewPager = (NoScrollViewPager) findViewById(R.id.creat_group_viewpager);
@@ -53,9 +92,10 @@ public class CreatGroupActivity extends BaseActivity {
         list.add(informationFg);
         list.add(funtionFg);
         list.add(finishFg);
+        activity = this;
     }
 
-    private void setViewPager(){
+    private void setViewPager() {
         adapter = new FragmentPagerAdapter(getSupportFragmentManager()) {
             @Override
             public Fragment getItem(int position) {
@@ -89,7 +129,7 @@ public class CreatGroupActivity extends BaseActivity {
         });
     }
 
-    private void initEvent(){
+    private void initEvent() {
         cancel.setOnClickListener(this);
         commit.setOnClickListener(this);
     }
@@ -98,7 +138,7 @@ public class CreatGroupActivity extends BaseActivity {
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         if (keyCode == KeyEvent.KEYCODE_BACK && event.getRepeatCount() == 0) {
             //按下的如果是BACK，同时没有重复
-            switch (nowPager){
+            switch (nowPager) {
                 case 0:
                     finish();
                     break;
@@ -118,17 +158,79 @@ public class CreatGroupActivity extends BaseActivity {
 
     @Override
     public void widgetClick(View v) {
-        switch (v.getId()){
+        switch (v.getId()) {
             case R.id.every_top_right:
                 finish();
-              break;
+                break;
             case R.id.creat_group_xiayibu:
-                switch (nowPager){
+                switch (nowPager) {
                     case 0:
-                        viewPager.setCurrentItem(1);
+                        if (((EssentialInformationFragment) informationFg).getGo()) {
+                            viewPager.setCurrentItem(1);
+                        } else {
+                            Toast.makeText(getContext(), "必填项不能为空", Toast.LENGTH_SHORT).show();
+                        }
                         break;
                     case 1:
-                        viewPager.setCurrentItem(2);
+                        String uri = OKhttpHelper.getInstance().ESDABLISH_GROUP;
+                        EssentialInformationFragment informationFgNew = (EssentialInformationFragment)informationFg;
+                        FuntionConfigurationFragment funtionFgNew = (FuntionConfigurationFragment)funtionFg;
+                        if (((FuntionConfigurationFragment) funtionFg).getNext()) {
+                            mWeiboDialog = WeiboDialogUtils.createLoadingDialog(CreatGroupActivity.this, "加载中...");
+                            AsyncHttpClient client = new AsyncHttpClient();
+                            RequestParams params = new RequestParams();
+                            try {
+                                params.put("name",informationFgNew.groupName.getText().toString());
+                                params.put("introduction",informationFgNew.groupIntroduce.getText().toString());
+                                params.put("touXiangImg",informationFgNew.saveBitmapFile(informationFgNew.bitmap));
+                                params.put("ownerId", SharedPreferencesUtils.getParam(CreatGroupActivity.this,"id",""));
+                                params.put("lotteryType", informationFgNew.caiZhong + "");
+                                params.put("province", informationFgNew.list.get(0));
+                                params.put("city", informationFgNew.list.get(1));
+                                params.put("joinType", funtionFgNew.mode);
+                                params.put("fabuKj", funtionFgNew.relLottery);
+                                params.put("fabuZs", funtionFgNew.relTrend);
+                                params.put("ssYlChaxun", funtionFgNew.realMiss);
+                                params.put("ssZjChaxun", funtionFgNew.realExp);
+                                params.put("ssKjChaxun", funtionFgNew.realLot);
+                            } catch (Exception e) {
+                                e.printStackTrace();
+                            }
+
+                            client.post(uri, params, new AsyncHttpResponseHandler() {
+                                @Override
+                                public void onSuccess(int i, Header[] headers, byte[] bytes) {
+                                    try {
+                                        String json = new String(bytes, "UTF-8");
+                                        JSONObject object = new JSONObject(json);
+                                        Gson gson = new Gson();
+                                        bean = gson.fromJson(json,CreatGroupBean.class);
+                                        Message msg = new Message();
+                                        if (object.getBoolean("flag")){
+                                            msg.what = 1;
+                                        }else {
+                                            msg.what = 2;
+                                        }
+                                        handler.sendMessage(msg);
+                                    } catch (UnsupportedEncodingException e) {
+                                        e.printStackTrace();
+                                    } catch (JSONException e) {
+                                        e.printStackTrace();
+                                    }
+                                }
+
+                                @Override
+                                public void onFailure(int i, Header[] headers, byte[] bytes, Throwable throwable) {
+                                    Message msg = new Message();
+                                    msg.what = 2;
+                                    handler.sendMessage(msg);
+                                    WeiboDialogUtils.closeDialog(mWeiboDialog);
+                                }
+                            });
+                        } else {
+                            Toast.makeText(getContext(), "必填项不能为空", Toast.LENGTH_SHORT).show();
+                        }
+
                         break;
                     case 2:
                         finish();
@@ -142,25 +244,32 @@ public class CreatGroupActivity extends BaseActivity {
         }
     }
 
-    private void setBackTop(int position){
-        switch (position){
+    private void setBackTop(int position) {
+        switch (position) {
             case 0:
                 information.setBackgroundColor(getResources().getColor(R.color.zitilv));
                 funtion.setBackgroundColor(getResources().getColor(R.color.heihui));
                 finish.setBackgroundColor(getResources().getColor(R.color.heihui));
+                commit.setText("下一步");
                 break;
             case 1:
                 information.setBackgroundColor(getResources().getColor(R.color.heihui));
                 funtion.setBackgroundColor(getResources().getColor(R.color.zitilv));
                 finish.setBackgroundColor(getResources().getColor(R.color.heihui));
+                commit.setText("下一步");
                 break;
             case 2:
                 information.setBackgroundColor(getResources().getColor(R.color.heihui));
                 funtion.setBackgroundColor(getResources().getColor(R.color.heihui));
                 finish.setBackgroundColor(getResources().getColor(R.color.zitilv));
+                commit.setText("完　成");
                 break;
             default:
                 break;
         }
+    }
+
+    public static CreatGroupActivity getContext() {
+        return activity;
     }
 }

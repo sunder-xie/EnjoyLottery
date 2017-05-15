@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.support.v4.app.Fragment;
-import android.support.v4.view.ViewPager;
 import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
@@ -29,6 +28,7 @@ import com.example.administrator.enjoylottery.model.Info;
 import com.example.administrator.enjoylottery.presenters.OKhttpHelper;
 import com.example.administrator.enjoylottery.service.MapApplication;
 import com.example.administrator.enjoylottery.tools.SharedPreferencesUtils;
+import com.example.administrator.enjoylottery.view.CustomViewPager;
 import com.example.administrator.enjoylottery.view.WeiboDialogUtils;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -45,7 +45,7 @@ import io.github.leibnik.wechatradiobar.WechatRadioGroup;
  */
 
 public class HomeActivity extends BaseActivity {
-    private ViewPager viewPager;
+    private CustomViewPager viewPager;
     private MyFragmentPagerAdapter adapter;
     private List<Fragment> list = new ArrayList<>();
     private Fragment chartFragment, gongjuFragment, meFragment, faxianFragment;
@@ -61,7 +61,7 @@ public class HomeActivity extends BaseActivity {
         setContentView(R.layout.activity_home);
         initView();
         mWeiboDialog = WeiboDialogUtils.createLoadingDialog(HomeActivity.this, "加载中...");
-        new GetBall().execute();
+        //new GetBall().execute();
     }
 
     Handler handler = new Handler() {
@@ -83,7 +83,7 @@ public class HomeActivity extends BaseActivity {
     }
 
     private void initView() {
-        viewPager = (ViewPager) findViewById(R.id.home_viewpager);
+        viewPager = (CustomViewPager) findViewById(R.id.home_viewpager);
         wechatRadioGroup = (WechatRadioGroup) findViewById(R.id.dibudaohanglan);
         chart = (WechatRadioButton) findViewById(R.id.liaotian);
         chart.setRadioButtonChecked(true);

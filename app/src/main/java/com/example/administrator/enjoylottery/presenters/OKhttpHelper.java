@@ -45,10 +45,16 @@ public class OKhttpHelper {
     private static final String MODIFY_NEW_PWD = DOMAIN + "outerLbuyerOrexpert/updatePassword?";
     //修改用户信息接口
     private static final String MODIFY_USER_INFORMATION = DOMAIN + "outerLbuyerOrexpert/updateUser?";
-    //获取认证的材料站接口
+    //获取认证的彩票站接口
     private static final String GET_HAVE_LOTTERY = DOMAIN + "outerLotteryStation/getLotteryStaionOfRenzheng?";
     //创建群
-    private static final String ESDABLISH_GROUP = DOMAIN + "createGroup?";
+    public static final String ESDABLISH_GROUP = DOMAIN + "outerLGroup/createGroup";
+    //查询用户已加入的群接口
+    private static final String ADD_GROUP = DOMAIN + "outerLGroup/getGroupsOfUserjoins?";
+    //查询群主当前管理的群接口
+    private static final String MAIN_GROUP = DOMAIN + "outerLGroup/getGroupsOfOwner?";
+    //按条件获取群列表接口
+    private static final String GET_QUERY_GROUP = DOMAIN + "outerLGroup/getGroupList?";
 
     public static OKhttpHelper getInstance() {
         if (instance == null) {
@@ -244,10 +250,10 @@ public class OKhttpHelper {
         return null;
     }
 
-    //获取用户认证的彩票站接口
-    public String getEsdablishGroup(JSONObject object) {
+    //按条件获取群列表接口
+    public String getQueryGroup(JSONObject object) {
         try {
-            String objects = OKhttpHelper.getInstance().get(ESDABLISH_GROUP, object.toString());
+            String objects = OKhttpHelper.getInstance().get(GET_QUERY_GROUP, object.toString());
             JSONTokener jsonTokener = new JSONTokener(objects);
             JSONObject result = (JSONObject) jsonTokener.nextValue();
             return result + "";
@@ -258,6 +264,47 @@ public class OKhttpHelper {
         return null;
     }
 
+    //获取用户认证的彩票站接口
+    public String getEsdablishGroup(JSONObject object) {
+        try {
+            String objects = OKhttpHelper.getInstance().get(GET_HAVE_LOTTERY, object.toString());
+            JSONTokener jsonTokener = new JSONTokener(objects);
+            JSONObject result = (JSONObject) jsonTokener.nextValue();
+            return result + "";
+        } catch (JSONException e) {
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    //查询用户已加入的群接口
+    public String getAddGroup(JSONObject object) {
+        try {
+            String objects = OKhttpHelper.getInstance().get(ADD_GROUP, object.toString());
+            JSONTokener jsonTokener = new JSONTokener(objects);
+            JSONObject result = (JSONObject) jsonTokener.nextValue();
+            return result + "";
+        } catch (JSONException e) {
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    //查询群主当前管理的群接口
+    public String getMainGroup(JSONObject object) {
+        try {
+            String objects = OKhttpHelper.getInstance().get(MAIN_GROUP, object.toString());
+            JSONTokener jsonTokener = new JSONTokener(objects);
+            JSONObject result = (JSONObject) jsonTokener.nextValue();
+            return result + "";
+        } catch (JSONException e) {
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
 
     //获取球
     public String get11f5Ball() {

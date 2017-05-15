@@ -20,6 +20,7 @@ import com.example.administrator.enjoylottery.activity.GroupCardActivity;
 import com.example.administrator.enjoylottery.activity.HelpActivity;
 import com.example.administrator.enjoylottery.activity.HomeActivity;
 import com.example.administrator.enjoylottery.activity.LotterySiteAuthenticationActivity;
+import com.example.administrator.enjoylottery.activity.MyNewsActivity;
 import com.example.administrator.enjoylottery.activity.PersonalInformationActivity;
 import com.example.administrator.enjoylottery.activity.SetUpActivity;
 import com.example.administrator.enjoylottery.activity.WalletActivity;
@@ -36,7 +37,7 @@ import io.rong.imageloader.core.ImageLoader;
 
 public class MeFragmentTwo extends BaseFragment implements View.OnClickListener {
     private View view;
-    private RelativeLayout qianBao, kaBao, bangZhu, sheZhi, caiZhan;
+    private RelativeLayout qianBao, kaBao, bangZhu, sheZhi, xiaoxi, caiZhan;
     private LinearLayout head;
     private TextView back, name, cailiaoName;
     private Intent intent;
@@ -58,6 +59,7 @@ public class MeFragmentTwo extends BaseFragment implements View.OnClickListener 
         kaBao = (RelativeLayout) view.findViewById(R.id.item_lay_bangzhuzhongxin);
         bangZhu = (RelativeLayout) view.findViewById(R.id.item_lay_mimashezhi);
         sheZhi = (RelativeLayout) view.findViewById(R.id.item_lay_shezhi);
+        xiaoxi = (RelativeLayout) view.findViewById(R.id.item_lay_xiaoxi);
         caiZhan = (RelativeLayout) view.findViewById(R.id.item_lay_renzhengzhongxin);
         back = (TextView) view.findViewById(R.id.quanju_dengchu);
         head = (LinearLayout) view.findViewById(R.id.lay_head);
@@ -84,6 +86,7 @@ public class MeFragmentTwo extends BaseFragment implements View.OnClickListener 
         caiZhan.setOnClickListener(this);
         back.setOnClickListener(this);
         head.setOnClickListener(this);
+        xiaoxi.setOnClickListener(this);
     }
 
     @Override
@@ -103,6 +106,10 @@ public class MeFragmentTwo extends BaseFragment implements View.OnClickListener 
                 break;
             case R.id.item_lay_shezhi:
                 intent = new Intent(getActivity(), SetUpActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.item_lay_xiaoxi:
+                intent = new Intent(getActivity(), MyNewsActivity.class);
                 startActivity(intent);
                 break;
             case R.id.item_lay_renzhengzhongxin:
