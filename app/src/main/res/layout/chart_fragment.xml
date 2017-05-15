@@ -18,7 +18,7 @@
         <RelativeLayout
             android:layout_width="40dp"
             android:layout_height="match_parent"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="10dp"
             android:background="@color/background_white">
 
             <ImageView
@@ -62,7 +62,7 @@
         <RelativeLayout
             android:layout_width="40dp"
             android:layout_height="match_parent"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="10dp"
             android:background="@color/background_white">
 
             <ImageView
@@ -104,7 +104,7 @@
         <RelativeLayout
             android:layout_width="40dp"
             android:layout_height="match_parent"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="10dp"
             android:background="@color/background_white">
 
             <ImageView
@@ -146,7 +146,7 @@
         <RelativeLayout
             android:layout_width="40dp"
             android:layout_height="match_parent"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="10dp"
             android:background="@color/background_white">
 
             <ImageView
@@ -176,12 +176,16 @@
             android:textSize="15sp"/>
     </LinearLayout>
 
-    <ListView
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/xiala_shuaxin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.baoyz.swipemenulistview.SwipeMenuListView
         android:id="@+id/group_chart_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scrollbars="none"
-        android:divider="@null"
-        android:layout_marginTop="15dp"/>
-
+        android:dividerHeight="3dp"
+        android:divider="@color/background_hui"/>
+    </android.support.v4.widget.SwipeRefreshLayout>
 </LinearLayout>

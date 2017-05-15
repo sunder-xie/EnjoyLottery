@@ -58,11 +58,11 @@ public abstract class BaseActivity extends FragmentActivity implements View.OnCl
     /**
      * 所有省
      */
-    protected String[] mProvinceDatas;
+    public String[] mProvinceDatas;
     /**
      * key - 省 value - 市
      */
-    protected Map<String, String[]> mCitisDatasMap = new HashMap<String, String[]>();
+    public Map<String, String[]> mCitisDatasMap = new HashMap<String, String[]>();
     /**
      * key - 市 values - 区
      */
@@ -81,15 +81,15 @@ public abstract class BaseActivity extends FragmentActivity implements View.OnCl
     /**
      * 当前省的名称
      */
-    protected String mCurrentProviceName;
+    public String mCurrentProviceName;
     /**
      * 当前市的名称
      */
-    protected String mCurrentCityName;
+    public String mCurrentCityName;
     /**
      * 当前区的名称
      */
-    protected String mCurrentDistrictName ="";
+    public String mCurrentDistrictName ="";
 
     /**
      * 当前区的邮政编码
@@ -207,7 +207,7 @@ public abstract class BaseActivity extends FragmentActivity implements View.OnCl
     /**
      * 解析省市区的XML数据
      */
-    protected void initProvinceDatas(){
+    public void initProvinceDatas(){
         AssetManager asset = getAssets();
         try {
             InputStream input = asset.open("province_data.xml");
