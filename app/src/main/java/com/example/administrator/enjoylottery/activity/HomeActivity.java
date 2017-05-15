@@ -61,7 +61,7 @@ public class HomeActivity extends BaseActivity {
         setContentView(R.layout.activity_home);
         initView();
         mWeiboDialog = WeiboDialogUtils.createLoadingDialog(HomeActivity.this, "加载中...");
-        //new GetBall().execute();
+        new GetBall().execute();
     }
 
     Handler handler = new Handler() {
