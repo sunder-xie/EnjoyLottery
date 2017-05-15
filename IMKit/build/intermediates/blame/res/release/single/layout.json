@@ -264,12 +264,12 @@
         "source": "C:\\Users\\Administrator\\Desktop\\EnjoyLottery\\IMKit\\src\\main\\res\\layout\\rc_ext_menu_container.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\EnjoyLottery\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_fr_file_list.xml",
-        "source": "C:\\Users\\Administrator\\Desktop\\EnjoyLottery\\IMKit\\src\\main\\res\\layout\\rc_fr_file_list.xml"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\Desktop\\EnjoyLottery\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_item_location_message.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\EnjoyLottery\\IMKit\\src\\main\\res\\layout\\rc_item_location_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\EnjoyLottery\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_fr_file_list.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\EnjoyLottery\\IMKit\\src\\main\\res\\layout\\rc_fr_file_list.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\EnjoyLottery\\IMKit\\build\\intermediates\\res\\merged\\release\\layout\\rc_dialog_popup_prompt_warning.xml",
