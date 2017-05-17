@@ -19,7 +19,7 @@
             android:text="常用走势图"
             android:textSize="20sp" />
 
-            <com.example.administrator.enjoylottery.view.MyRecyclerview
+            <com.enjoylottery.view.MyRecyclerview
                 android:id="@+id/changyongzoushitu"
                 android:layout_width="match_parent"
                 android:layout_height="110dp"

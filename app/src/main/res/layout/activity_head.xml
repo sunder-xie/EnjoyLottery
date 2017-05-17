@@ -7,7 +7,7 @@
 
     <include layout="@layout/top_quan" />
 
-        <com.example.administrator.enjoylottery.view.TouchImageView
+        <com.enjoylottery.view.TouchImageView
             android:id="@+id/image_head"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

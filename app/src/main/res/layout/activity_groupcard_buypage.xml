@@ -86,7 +86,7 @@
         android:paddingRight="10dp"
         android:text="购买彩聊建群卡，您将有用建群权限，群内自带彩聊机器人，为您提供更贴心的群聊服务"/>
 
-    <com.example.administrator.enjoylottery.view.AmountView
+    <com.enjoylottery.view.AmountView
         android:id="@+id/amount_view"
         android:layout_width="wrap_content"
         android:layout_height="36dp"

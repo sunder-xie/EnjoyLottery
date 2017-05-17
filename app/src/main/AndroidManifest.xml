@@ -54,7 +54,7 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
     <application
-        android:name=".service.MapApplication"
+        android:name="com.enjoylottery.service.MapApplication"
         android:allowBackup="true"
         android:icon="@drawable/icon"
         android:label="@string/app_name"
@@ -81,44 +81,44 @@
                 android:resource="@xml/rc_file_path" />
         </provider>
 
-        <activity android:name=".MainActivity">
+        <activity android:name="com.enjoylottery.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.HomeActivity" />
-        <activity android:name=".activity.LoginActivity" />
-        <activity android:name=".activity.CaiminRegistrationActivity" />
-        <activity android:name=".activity.CaizhanRegistrationActivity" />
-        <activity android:name=".activity.MapBiaojiActivity" />
-        <activity android:name=".activity.ZhengjianRenzhengActivity" />
-        <activity android:name=".activity.ZhanghuZhuceActivity" />
-        <activity android:name=".activity.ZoushituHomeActivity" />
-        <activity android:name=".activity.FindBackPwdActivity" />
-        <activity android:name=".activity.SetUpActivity" />
-        <activity android:name=".activity.GroupCardActivity" />
-        <activity android:name=".activity.WalletActivity" />
-        <activity android:name=".activity.HelpActivity" />
-        <activity android:name=".activity.LotterySiteAuthenticationActivity" />
-        <activity android:name=".activity.GroupCardBuyPageActivity" />
-        <activity android:name=".activity.PersonalInformationActivity" />
-        <activity android:name=".activity.HeadActivity" />
-        <activity android:name=".activity.ChangeNameActivity" />
-        <activity android:name=".activity.LotteryChatNumberActivity" />
-        <activity android:name=".activity.PersonalizedSignatureActivity" />
-        <activity android:name=".activity.RegionActivity" />
-        <activity android:name=".activity.NewAddRegionActivity" />
-        <activity android:name=".activity.ModifyPasswordActivity" />
-        <activity android:name=".activity.CreatGroupActivity" />
-        <activity android:name=".activity.SearchGroupActivity" />
-        <activity android:name=".activity.MyNewsActivity" />
-        <activity android:name=".activity.ViewActivity" />
+        <activity android:name="com.enjoylottery.activity.HomeActivity" />
+        <activity android:name="com.enjoylottery.activity.LoginActivity" />
+        <activity android:name="com.enjoylottery.activity.CaiminRegistrationActivity" />
+        <activity android:name="com.enjoylottery.activity.CaizhanRegistrationActivity" />
+        <activity android:name="com.enjoylottery.activity.MapBiaojiActivity" />
+        <activity android:name="com.enjoylottery.activity.ZhengjianRenzhengActivity" />
+        <activity android:name="com.enjoylottery.activity.ZhanghuZhuceActivity" />
+        <activity android:name="com.enjoylottery.activity.ZoushituHomeActivity" />
+        <activity android:name="com.enjoylottery.activity.FindBackPwdActivity" />
+        <activity android:name="com.enjoylottery.activity.SetUpActivity" />
+        <activity android:name="com.enjoylottery.activity.GroupCardActivity" />
+        <activity android:name="com.enjoylottery.activity.WalletActivity" />
+        <activity android:name="com.enjoylottery.activity.HelpActivity" />
+        <activity android:name="com.enjoylottery.activity.LotterySiteAuthenticationActivity" />
+        <activity android:name="com.enjoylottery.activity.GroupCardBuyPageActivity" />
+        <activity android:name="com.enjoylottery.activity.PersonalInformationActivity" />
+        <activity android:name="com.enjoylottery.activity.HeadActivity" />
+        <activity android:name="com.enjoylottery.activity.ChangeNameActivity" />
+        <activity android:name="com.enjoylottery.activity.LotteryChatNumberActivity" />
+        <activity android:name="com.enjoylottery.activity.PersonalizedSignatureActivity" />
+        <activity android:name="com.enjoylottery.activity.RegionActivity" />
+        <activity android:name="com.enjoylottery.activity.NewAddRegionActivity" />
+        <activity android:name="com.enjoylottery.activity.ModifyPasswordActivity" />
+        <activity android:name="com.enjoylottery.activity.CreatGroupActivity" />
+        <activity android:name="com.enjoylottery.activity.SearchGroupActivity" />
+        <activity android:name="com.enjoylottery.activity.MyNewsActivity" />
+        <activity android:name="com.enjoylottery.activity.ViewActivity" />
 
         <!--会话界面-->
         <activity
-            android:name=".activity.ConversationActivity"
+            android:name="com.enjoylottery.activity.ConversationActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustResize">
 
@@ -174,7 +174,7 @@
 
         <!-- User defined.  For test only  用户自定义的广播接收器-->
         <receiver
-            android:name=".broadcastReceiver.MyJPushReceiver"
+            android:name="com.enjoylottery.broadcastReceiver.MyJPushReceiver"
             android:enabled="true"
             android:exported="false">
             <intent-filter>

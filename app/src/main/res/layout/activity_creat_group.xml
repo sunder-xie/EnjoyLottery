@@ -47,7 +47,7 @@
             android:textColor="@color/background_white"/>
     </LinearLayout>
 
-    <com.example.administrator.enjoylottery.view.NoScrollViewPager
+    <com.enjoylottery.view.NoScrollViewPager
         android:id="@+id/creat_group_viewpager"
         android:layout_width="match_parent"
         android:layout_height="0dp"
